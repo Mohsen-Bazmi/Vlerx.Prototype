@@ -15,7 +15,8 @@
           "Serilog": "2.8.0",
           "Vlerx.Es": "1.0.6",
           "Vlerx.Es.EventMapping": "1.0.5",
-          "Vlerx.Es.Messaging": "1.0.5"
+          "Vlerx.Es.Messaging": "1.0.5",
+          "Vlerx.InternalMessaging": "1.0.5"
         },
         "runtime": {
           "Vlerx.Es.EventStore.dll": {}
@@ -650,8 +651,7 @@
       "Vlerx.Es/1.0.6": {
         "dependencies": {
           "DeepCloner": "0.10.2",
-          "Vlerx.Es.Messaging": "1.0.5",
-          "Vlerx.InternalMessaging": "1.0.5"
+          "Vlerx.Es.Messaging": "1.0.5"
         },
         "runtime": {
           "Vlerx.Es.dll": {}
@@ -673,8 +673,7 @@
       },
       "Vlerx.InternalMessaging/1.0.5": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Vlerx.Es.Messaging": "1.0.5"
+          "Microsoft.CSharp": "4.5.0"
         },
         "runtime": {
           "Vlerx.InternalMessaging.dll": {}

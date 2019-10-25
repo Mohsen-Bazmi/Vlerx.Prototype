@@ -34,8 +34,6 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.dll
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csprojAssemblyReference.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csproj.CoreCompileInputs.cache

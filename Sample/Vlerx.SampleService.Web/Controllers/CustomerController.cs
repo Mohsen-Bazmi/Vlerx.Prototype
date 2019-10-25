@@ -1,6 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Vlerx.Es.StoryBroker;
 using Vlerx.InternalMessaging;
 using Vlerx.SampleService.Customers.Commands;
 using Vlerx.SampleService.Web.Customers;

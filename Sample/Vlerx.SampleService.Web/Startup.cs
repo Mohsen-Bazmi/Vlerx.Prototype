@@ -9,6 +9,7 @@ using Vlerx.Es.DataStorage;
 using Vlerx.Es.EventMapping.Serialization;
 using Vlerx.Es.EventStore;
 using Vlerx.Es.EventStore.Subscription;
+using Vlerx.Es.Messaging;
 using Vlerx.Es.Persistence;
 using Vlerx.Es.StoryBroker;
 using Vlerx.InternalMessaging;
@@ -52,10 +53,11 @@ namespace Vlerx.SampleService.Web
             );
             services.AddSingleton(stories);
 
-            var customerEventListener = new CustomerEventListener();
-            services.AddSingleton<IListenTo<CustomerRegistered>>(customerEventListener);
-            services.AddSingleton<IListenTo<CustomerRelocated>>(customerEventListener);
-            services.AddSingleton<IListenTo<CustomerContactInfoChanged>>(customerEventListener);
+            services.AddSingleton<CustomerEventListener>();
+            services.AddSingleton<IListenTo<CustomerRegistered>>(x => x.GetService<CustomerEventListener>());
+            services.AddSingleton<IListenTo<CustomerRegistered>>(x => x.GetService<CustomerEventListener>());
+            services.AddSingleton<IListenTo<CustomerRelocated>>(x => x.GetService<CustomerEventListener>());
+            services.AddSingleton<IListenTo<CustomerContactInfoChanged>>(x => x.GetService<CustomerEventListener>());
 
             var subscriptionIntegrator = new SubscriptionIntegrator(
                 esConnection
@@ -75,7 +77,9 @@ namespace Vlerx.SampleService.Web
                 //           )
                 //   )
                 //or:
-                , EventBroadcaster.Subscribe(services.BuildServiceProvider())
+                , MessageBroadcaster<EventEnvelope>.Subscribe(
+                    services.BuildServiceProvider()
+                    , m => m.Payload)
                 , eventSerdes
             );
             var eventStoreService = new EventStoreService(

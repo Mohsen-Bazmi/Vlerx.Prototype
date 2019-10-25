@@ -1,24 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a977c97-bf15-4188-add4-0823673af671" name="Default Changelist" comment="" />
+    <list default="true" id="1a977c97-bf15-4188-add4-0823673af671" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Vlerx/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/MessageBroadcaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vlerx/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vlerx/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Vlerx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Vlerx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleContracts/obj/Debug/netstandard2.0/Vlerx.SampleContracts.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleContracts/obj/Debug/netstandard2.0/Vlerx.SampleContracts.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleContracts/obj/Vlerx.SampleContracts.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleContracts/obj/Vlerx.SampleContracts.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleContracts/obj/Vlerx.SampleContracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleContracts/obj/Vlerx.SampleContracts.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleContracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleContracts/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.SampleReadSide.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.SampleReadSide.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/obj/Vlerx.SampleReadSide.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/obj/Vlerx.SampleReadSide.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/obj/Vlerx.SampleReadSide.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/obj/Vlerx.SampleReadSide.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleRuntime/obj/Debug/netstandard2.0/Vlerx.SampleRuntime.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleRuntime/obj/Debug/netstandard2.0/Vlerx.SampleRuntime.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleRuntime/obj/Vlerx.SampleRuntime.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleRuntime/obj/Vlerx.SampleRuntime.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleRuntime/obj/Vlerx.SampleRuntime.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleRuntime/obj/Vlerx.SampleRuntime.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleRuntime/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleRuntime/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Vlerx.SampleService.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Vlerx.SampleService.Tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Vlerx.SampleService.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/Vlerx.SampleService.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Controllers/CustomerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Controllers/CustomerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Processes/ProcessWithState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Processes/ProcessWithState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Processes/SampleProcess.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Processes/SampleProcess.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.EventStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.EventStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.EventStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.EventStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.Process.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.Process.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.Process.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.Process.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Web.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Vlerx.SampleService.Web.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Vlerx.SampleService.Web.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Vlerx.SampleService.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/Vlerx.SampleService.Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.Es.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.Es.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.Es.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.Es.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.SampleService.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.SampleService.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Vlerx.SampleService.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Vlerx.SampleService.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Vlerx.SampleService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/Vlerx.SampleService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/Vlerx.SampleService/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/Spys/StoriesSpy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/Spys/StoriesSpy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Vlerx.Es.Bdd.Tools.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Vlerx.Es.Bdd.Tools.Tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Vlerx.Es.Bdd.Tools.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/Vlerx.Es.Bdd.Tools.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/Scenarios.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/Scenarios.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/ScenariosOfStories.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/ScenariosOfStories.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Vlerx.Es.Bdd.Tools.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Vlerx.Es.Bdd.Tools.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Vlerx.Es.Bdd.Tools.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/Vlerx.Es.Bdd.Tools.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.EventMapping.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.EventMapping.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping.Tests/obj/Vlerx.Es.EventMapping.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping.Tests/obj/Vlerx.Es.EventMapping.Tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping.Tests/obj/Vlerx.Es.EventMapping.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping.Tests/obj/Vlerx.Es.EventMapping.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.Es.EventMapping.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.Es.EventMapping.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.Es.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.Es.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.Es.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.Es.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Vlerx.Es.EventMapping.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Vlerx.Es.EventMapping.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Vlerx.Es.EventMapping.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/Vlerx.Es.EventMapping.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventMapping/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/Subscription/SubscriptionIntegrator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/Subscription/SubscriptionIntegrator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.EventStore.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.EventStore.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.EventStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.EventStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.EventStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.EventStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Vlerx.Es.EventStore.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Vlerx.Es.EventStore.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Vlerx.Es.EventStore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/Vlerx.Es.EventStore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.EventStore/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/Vlerx.Es.Messaging.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/Vlerx.Es.Messaging.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/Vlerx.Es.Messaging.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/Vlerx.Es.Messaging.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Messaging/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/Vlerx.Es.Process.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/Vlerx.Es.Process.Tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/Vlerx.Es.Process.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/Vlerx.Es.Process.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/ProcessOf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/ProcessOf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/Vlerx.Es.Process.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/Vlerx.Es.Process.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.Process.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.Process.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.Process.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.Process.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.Process.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.Process.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Vlerx.Es.Process.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Vlerx.Es.Process.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Vlerx.Es.Process.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/obj/Vlerx.Es.Process.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Process/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Process/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Tests/obj/Vlerx.Es.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Tests/obj/Vlerx.Es.Tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Tests/obj/Vlerx.Es.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Tests/obj/Vlerx.Es.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/StoryBroker/Stories.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/StoryBroker/Stories.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/Vlerx.Es.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/Vlerx.Es.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Vlerx.Es.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Vlerx.Es.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Vlerx.Es.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Vlerx.Es.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Vlerx.Es.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Vlerx.Es.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/Debug/netstandard2.0/Vlerx.Es.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/Vlerx.Es.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/Vlerx.Es.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/Vlerx.Es.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/Vlerx.Es.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.Es/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging.Tests/obj/Debug/netcoreapp2.2/Vlerx.InternalMessaging.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging.Tests/obj/Debug/netcoreapp2.2/Vlerx.InternalMessaging.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging.Tests/obj/Vlerx.InternalMessaging.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging.Tests/obj/Vlerx.InternalMessaging.Tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging.Tests/obj/Vlerx.InternalMessaging.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging.Tests/obj/Vlerx.InternalMessaging.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/EventBroadcaster.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/IStories.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.Es/StoryBroker/IStories.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Vlerx.InternalMessaging.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Vlerx.InternalMessaging.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Vlerx.InternalMessaging.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/Vlerx.InternalMessaging.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vlerx.InternalMessaging/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vlerx.Es.Process/ProcessOf.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/ScenariosOfStories.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/Scenarios.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vlerx.Es.Messaging/EventEnvelope.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vlerx.InternalMessaging/IListenTo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vlerx.Es.EventStore/EventStoreConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vlerx.Es/StoryBroker/Stories.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vlerx.InternalMessaging/IStories.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vlerx.Es/StoryBroker/IStories.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vlerx.InternalMessaging/IMessenger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vlerx.InternalMessaging/EventBroadcaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vlerx.InternalMessaging/MessageBroadcaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vlerx.Es.EventStore/EventStoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vlerx.Es.EventStore/Subscription/SubscriptionIntegrator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vlerx.Es.EventStore/EventStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample/Vlerx.SampleReadSide/CustomerEventListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vlerx.Es/StoryBroker/Stories.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/Spys/StoriesSpy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -27,11 +252,23 @@
         <option value="$PROJECT_DIR$/Vlerx.InternalMessaging/IMessenger.cs" />
         <option value="$PROJECT_DIR$/Vlerx.InternalMessaging/IListenTo.cs" />
         <option value="$PROJECT_DIR$/Vlerx.InternalMessaging/EventBroadcaster.cs" />
+        <option value="$PROJECT_DIR$/Vlerx.Es.EventStore/Subscription/SubscriptionIntegrator.cs" />
+        <option value="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj" />
+        <option value="$PROJECT_DIR$/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj" />
+        <option value="$PROJECT_DIR$/Sample/Vlerx.SampleService.Web/Startup.cs" />
+        <option value="$PROJECT_DIR$/Vlerx.Es.Process/ProcessOf.cs" />
+        <option value="$PROJECT_DIR$/Vlerx.Es/StoryBroker/Stories.cs" />
+        <option value="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/Scenarios.cs" />
+        <option value="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools/ScenariosOfStories.cs" />
+        <option value="$PROJECT_DIR$/Vlerx.Es.Bdd.Tools.Tests/Spys/StoriesSpy.cs" />
+        <option value="$PROJECT_DIR$/Vlerx.InternalMessaging/MessageBroadcaster.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1Sc0J59eO7zVKw8tuRxlRUUfNFj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -92,7 +329,8 @@
       <updated>1571847502602</updated>
       <workItem from="1571847504456" duration="3549000" />
       <workItem from="1571907336559" duration="2987000" />
-      <workItem from="1571991133439" duration="1483000" />
+      <workItem from="1571991133439" duration="4311000" />
+      <workItem from="1571997986220" duration="3757000" />
     </task>
     <servers />
   </component>
@@ -101,6 +339,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
@@ -111,6 +362,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Vlerx.InternalMessaging/MessageBroadcaster.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/Vlerx.InternalMessaging/MessageBroadcaster.cs" initialLine="22">
+            <startOffsets>
+              <option value="609" />
+            </startOffsets>
+            <endOffsets>
+              <option value="643" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

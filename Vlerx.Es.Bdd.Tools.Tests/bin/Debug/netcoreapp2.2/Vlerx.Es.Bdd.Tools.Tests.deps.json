@@ -1029,7 +1029,6 @@
       "Vlerx.InternalMessaging/1.0.5": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
-          "Vlerx.Es.Messaging": "1.0.5",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0.0"
         },
         "runtime": {

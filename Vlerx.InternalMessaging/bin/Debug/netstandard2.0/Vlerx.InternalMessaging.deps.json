@@ -11,7 +11,6 @@
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
           "NETStandard.Library": "2.0.3",
-          "Vlerx.Es.Messaging": "1.0.5",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0.0"
         },
         "runtime": {
@@ -30,11 +29,6 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
-        }
-      },
-      "Vlerx.Es.Messaging/1.0.5": {
-        "runtime": {
-          "Vlerx.Es.Messaging.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0.0": {
@@ -73,11 +67,6 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
-    },
-    "Vlerx.Es.Messaging/1.0.5": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0.0": {
       "type": "reference",

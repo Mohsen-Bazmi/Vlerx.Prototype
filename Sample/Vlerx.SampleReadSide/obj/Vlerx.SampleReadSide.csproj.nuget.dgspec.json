@@ -17,7 +17,7 @@
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/mohsen/.config/NuGet/NuGet.Config"
+          "/home/mohsen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -71,7 +71,7 @@
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/mohsen/.config/NuGet/NuGet.Config"
+          "/home/mohsen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -128,7 +128,7 @@
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/mohsen/.config/NuGet/NuGet.Config"
+          "/home/mohsen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -178,7 +178,7 @@
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/mohsen/.config/NuGet/NuGet.Config"
+          "/home/mohsen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -188,11 +188,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

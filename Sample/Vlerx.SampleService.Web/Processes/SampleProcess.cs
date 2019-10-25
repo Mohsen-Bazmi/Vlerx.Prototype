@@ -1,4 +1,5 @@
 using Vlerx.Es.Process;
+using Vlerx.Es.StoryBroker;
 using Vlerx.InternalMessaging;
 using Vlerx.SampleContracts.Customers;
 

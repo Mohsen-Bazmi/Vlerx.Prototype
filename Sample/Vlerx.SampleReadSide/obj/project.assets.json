@@ -49,8 +49,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Vlerx.Es.Messaging": "1.0.5"
+          "Microsoft.CSharp": "4.5.0"
         },
         "compile": {
           "bin/placeholder/Vlerx.InternalMessaging.dll": {}
@@ -326,7 +325,7 @@
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/mohsen/.config/NuGet/NuGet.Config"
+        "/home/mohsen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

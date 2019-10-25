@@ -103,7 +103,6 @@ namespace Vlerx.Es.EventStore.Subscription
             var @event = _deserializer.Deserialize(rawEvent);
 
             _log.Debug("Projecting event {event}", rawEvent.Body.ToString());
-            Console.WriteLine($"Projecting event {rawEvent.Body}");
             try
             {
                 // return Measure(() =>// Should be moved to a messenger decorator

@@ -138,9 +138,6 @@
             "projectReferences": {
               "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
                 "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
-              },
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
               }
             }
           }
@@ -157,64 +154,6 @@
             "DeepCloner": {
               "target": "Package",
               "version": "[0.10.2, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
-    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
-      "version": "1.0.5",
-      "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj",
-        "projectName": "Vlerx.InternalMessaging",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj",
-        "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/home/mohsen/.config/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "Microsoft.CSharp": {
-              "target": "Package",
-              "version": "[4.5.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

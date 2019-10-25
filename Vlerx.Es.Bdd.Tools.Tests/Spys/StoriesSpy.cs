@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Vlerx.Es.Messaging;
-using Vlerx.InternalMessaging;
+using Vlerx.Es.StoryBroker;
 
 namespace Vlerx.Es.Bdd.Tools.Tests.Spys
 {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Vlerx.Es.Messaging;
 using Vlerx.Es.Process;
+using Vlerx.Es.StoryBroker;
 using Vlerx.InternalMessaging;
 
 // using Serilog;

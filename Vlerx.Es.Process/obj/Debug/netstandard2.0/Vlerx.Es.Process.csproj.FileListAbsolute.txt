@@ -46,3 +46,5 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.csproj.CopyComplete
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process/obj/Debug/netstandard2.0/Vlerx.Es.Process.pdb
+/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.dll
+/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process/bin/Debug/netstandard2.0/Vlerx.Es.pdb

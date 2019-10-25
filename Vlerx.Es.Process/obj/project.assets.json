@@ -47,6 +47,20 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Vlerx.Es/1.0.6": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DeepCloner": "0.10.2",
+          "Vlerx.Es.Messaging": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Vlerx.Es.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vlerx.Es.dll": {}
+        }
+      },
       "Vlerx.Es.Messaging/1.0.5": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -61,8 +75,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Vlerx.Es.Messaging": "1.0.5"
+          "Microsoft.CSharp": "4.5.0"
         },
         "compile": {
           "bin/placeholder/Vlerx.InternalMessaging.dll": {}
@@ -300,6 +313,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "Vlerx.Es/1.0.6": {
+      "type": "project",
+      "path": "../Vlerx.Es/Vlerx.Es.csproj",
+      "msbuildProject": "../Vlerx.Es/Vlerx.Es.csproj"
+    },
     "Vlerx.Es.Messaging/1.0.5": {
       "type": "project",
       "path": "../Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj",
@@ -315,6 +333,7 @@
     ".NETStandard,Version=v2.0": [
       "DeepCloner >= 0.10.2",
       "NETStandard.Library >= 2.0.3",
+      "Vlerx.Es >= 1.0.6",
       "Vlerx.Es.Messaging >= 1.0.5",
       "Vlerx.InternalMessaging >= 1.0.5"
     ]
@@ -336,7 +355,7 @@
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/mohsen/.config/NuGet/NuGet.Config"
+        "/home/mohsen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -349,6 +368,9 @@
           "projectReferences": {
             "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
               "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
+            },
+            "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
+              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
             },
             "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
               "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"

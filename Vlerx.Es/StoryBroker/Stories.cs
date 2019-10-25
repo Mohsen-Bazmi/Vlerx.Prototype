@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Vlerx.Es.Messaging;
 using Vlerx.Es.UseCases;
-using Vlerx.InternalMessaging;
 
 namespace Vlerx.Es.StoryBroker
 {

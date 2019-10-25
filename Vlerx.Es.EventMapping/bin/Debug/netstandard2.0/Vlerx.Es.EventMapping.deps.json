@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "4a30b62f621f658dd120d661c5b7a6c8f8c35988"
+    "signature": "0511f536f584db7f26b28871d71b36293182d37d"
   },
   "compilationOptions": {},
   "targets": {
@@ -28,14 +28,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.CSharp.dll": {
-            "assemblyVersion": "4.0.4.0",
-            "fileVersion": "4.6.26515.6"
-          }
-        }
-      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
@@ -53,8 +45,7 @@
       "Vlerx.Es/1.0.6": {
         "dependencies": {
           "DeepCloner": "0.10.2",
-          "Vlerx.Es.Messaging": "1.0.5",
-          "Vlerx.InternalMessaging": "1.0.5"
+          "Vlerx.Es.Messaging": "1.0.5"
         },
         "runtime": {
           "Vlerx.Es.dll": {}
@@ -63,24 +54,6 @@
       "Vlerx.Es.Messaging/1.0.5": {
         "runtime": {
           "Vlerx.Es.Messaging.dll": {}
-        }
-      },
-      "Vlerx.InternalMessaging/1.0.5": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Vlerx.Es.Messaging": "1.0.5",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0.0"
-        },
-        "runtime": {
-          "Vlerx.InternalMessaging.dll": {}
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions.Reference/2.2.0.0": {
-        "runtime": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18315"
-          }
         }
       }
     }
@@ -97,13 +70,6 @@
       "sha512": "sha512-QJTEz5Y9m74S0gzarkIdljlbyx3gNOKM/UT9WZR5bS/pYZb6UX59QQWzLnu8KZc5jajQXtr/rHJcAGB39Ne6CA==",
       "path": "deepcloner/0.10.2",
       "hashPath": "deepcloner.0.10.2.nupkg.sha512"
-    },
-    "Microsoft.CSharp/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -133,16 +99,6 @@
     },
     "Vlerx.Es.Messaging/1.0.5": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Vlerx.InternalMessaging/1.0.5": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Extensions.DependencyInjection.Abstractions.Reference/2.2.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

@@ -4508,8 +4508,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "DeepCloner": "0.10.2",
-          "Vlerx.Es.Messaging": "1.0.5",
-          "Vlerx.InternalMessaging": "1.0.5"
+          "Vlerx.Es.Messaging": "1.0.5"
         },
         "compile": {
           "bin/placeholder/Vlerx.Es.dll": {}
@@ -4541,7 +4540,8 @@
           "Serilog": "2.8.0",
           "Vlerx.Es": "1.0.6",
           "Vlerx.Es.EventMapping": "1.0.5",
-          "Vlerx.Es.Messaging": "1.0.5"
+          "Vlerx.Es.Messaging": "1.0.5",
+          "Vlerx.InternalMessaging": "1.0.5"
         },
         "compile": {
           "bin/placeholder/Vlerx.Es.EventStore.dll": {}
@@ -4565,6 +4565,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "DeepCloner": "0.10.2",
+          "Vlerx.Es": "1.0.6",
           "Vlerx.Es.Messaging": "1.0.5",
           "Vlerx.InternalMessaging": "1.0.5"
         },
@@ -4579,8 +4580,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Vlerx.Es.Messaging": "1.0.5"
+          "Microsoft.CSharp": "4.5.0"
         },
         "compile": {
           "bin/placeholder/Vlerx.InternalMessaging.dll": {}
@@ -12390,7 +12390,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "EventStore.Client >= 4.1.0.23",
+      "EventStore.Client >= 4.1.1",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -12422,7 +12422,7 @@
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/mohsen/.config/NuGet/NuGet.Config"
+        "/home/mohsen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -12471,7 +12471,7 @@
         "dependencies": {
           "EventStore.Client": {
             "target": "Package",
-            "version": "[4.1.0.23, )"
+            "version": "[4.1.1, )"
           },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
@@ -12504,16 +12504,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Vlerx.SampleService.Web depends on EventStore.Client (>= 4.1.0.23) but EventStore.Client 4.1.0.23 was not found. An approximate best match of EventStore.Client 4.1.1 was resolved.",
-      "libraryId": "EventStore.Client",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

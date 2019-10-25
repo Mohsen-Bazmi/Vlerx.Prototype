@@ -39,14 +39,10 @@
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.SampleService.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.Es.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.dll
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.SampleContracts.dll
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.Es.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.SampleContracts.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csprojAssemblyReference.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.AssemblyInfoInputs.cache

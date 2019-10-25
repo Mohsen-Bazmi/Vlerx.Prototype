@@ -1,6 +1,6 @@
 using System;
 using Vlerx.Es.DataStorage;
-using Vlerx.InternalMessaging;
+using Vlerx.Es.StoryBroker;
 
 namespace Vlerx.Es.Bdd.Tools
 {

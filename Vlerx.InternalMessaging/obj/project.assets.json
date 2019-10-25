@@ -34,16 +34,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Vlerx.Es.Messaging/1.0.5": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Vlerx.Es.Messaging.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Vlerx.Es.Messaging.dll": {}
-        }
       }
     }
   },
@@ -258,18 +248,12 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Vlerx.Es.Messaging/1.0.5": {
-      "type": "project",
-      "path": "../Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj",
-      "msbuildProject": "../Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.CSharp >= 4.5.0",
-      "NETStandard.Library >= 2.0.3",
-      "Vlerx.Es.Messaging >= 1.0.5"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -289,7 +273,7 @@
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/mohsen/.config/NuGet/NuGet.Config"
+        "/home/mohsen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -299,11 +283,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -72,6 +72,7 @@
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Messaging.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.dll
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleContracts.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.pdb
@@ -79,6 +80,7 @@
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Messaging.pdb
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleContracts.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Microsoft.Extensions.DependencyInjection.Abstractions.xml
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csprojAssemblyReference.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csproj.CoreCompileInputs.cache
@@ -87,5 +89,3 @@
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csproj.CopyComplete
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleContracts.dll
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleContracts.pdb

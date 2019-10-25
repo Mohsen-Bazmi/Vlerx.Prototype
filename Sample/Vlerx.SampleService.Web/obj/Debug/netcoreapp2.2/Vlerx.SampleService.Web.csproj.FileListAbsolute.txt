@@ -66,12 +66,6 @@
 /home/mohsen/Desktop/Old/al/110/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.csproj.CopyComplete
 /home/mohsen/Desktop/Old/al/110/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.dll
 /home/mohsen/Desktop/Old/al/110/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.csproj.CoreCompileInputs.cache
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.RazorAssemblyInfo.cache
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.RazorAssemblyInfo.cs
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.AssemblyInfoInputs.cache
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Web.deps.json
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Web.runtimeconfig.json
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Web.runtimeconfig.dev.json
@@ -97,6 +91,12 @@
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.SampleContracts.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.EventStore.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/bin/Debug/netcoreapp2.2/Vlerx.Es.Messaging.pdb
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.csprojAssemblyReference.cache
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.csproj.CoreCompileInputs.cache
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.RazorAssemblyInfo.cache
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.RazorAssemblyInfo.cs
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.AssemblyInfoInputs.cache
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.TagHelpers.input.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.TagHelpers.output.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Web.RazorCoreGenerate.cache

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Vlerx.Es.Messaging\Vlerx.Es.Messaging.csproj" />
+    <ProjectReference Include="..\Vlerx.Es\Vlerx.Es.csproj" />
     <ProjectReference Include="..\Vlerx.InternalMessaging\Vlerx.InternalMessaging.csproj" />
   </ItemGroup>
 

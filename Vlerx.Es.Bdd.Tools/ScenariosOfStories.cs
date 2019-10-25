@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 using Vlerx.Es.DataStorage;
 using Vlerx.Es.Messaging;
 using Vlerx.Es.Persistence;
-using Vlerx.InternalMessaging;
+using Vlerx.Es.StoryBroker;
 
 namespace Vlerx.Es.Bdd.Tools
 {

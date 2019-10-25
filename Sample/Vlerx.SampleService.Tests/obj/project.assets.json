@@ -1617,8 +1617,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "DeepCloner": "0.10.2",
-          "Vlerx.Es.Messaging": "1.0.5",
-          "Vlerx.InternalMessaging": "1.0.5"
+          "Vlerx.Es.Messaging": "1.0.5"
         },
         "compile": {
           "bin/placeholder/Vlerx.Es.dll": {}
@@ -1655,8 +1654,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Vlerx.Es.Messaging": "1.0.5"
+          "Microsoft.CSharp": "4.5.0"
         },
         "compile": {
           "bin/placeholder/Vlerx.InternalMessaging.dll": {}

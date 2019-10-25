@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Vlerx.Es.Messaging;
 
-namespace Vlerx.InternalMessaging
+namespace Vlerx.Es.StoryBroker
 {
     public interface IStories
     {
