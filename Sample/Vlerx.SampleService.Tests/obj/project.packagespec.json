@@ -1,0 +1,71 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
+    "projectName": "Vlerx.SampleService.Tests",
+    "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
+    "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.0.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

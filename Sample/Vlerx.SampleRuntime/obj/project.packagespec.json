@@ -1,0 +1,46 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
+    "projectName": "Vlerx.SampleRuntime",
+    "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
+    "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

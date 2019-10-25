@@ -1,0 +1,90 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
+    "projectName": "Vlerx.SampleService.Web",
+    "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
+    "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process/Vlerx.Es.Process.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process/Vlerx.Es.Process.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "EventStore.Client": {
+          "target": "Package",
+          "version": "[4.1.0.23, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Serilog": {
+          "target": "Package",
+          "version": "[2.8.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

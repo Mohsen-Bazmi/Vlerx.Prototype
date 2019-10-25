@@ -1,0 +1,24 @@
+@model Vlerx.SampleService.Web.Customers.RegistrationViewModel
+
+@* @{ *@
+@*     ViewBag.Title = "title"; *@
+@*     Layout = "_Layout"; *@
+@* } *@
+
+@* <h2>title</h2> *@
+@using (Html.BeginForm("Register", "Customer", FormMethod.Post))
+{
+    @Html.LabelFor(m => m.FirstName)
+    @Html.TextBoxFor(m => m.FirstName)
+    <hr/>
+    @Html.LabelFor(m => m.LastName)
+    @Html.TextBoxFor(m => m.LastName)
+    <hr/>
+    @Html.LabelFor(m => m.Address)
+    @Html.TextBoxFor(m => m.Address)
+    <hr/>
+    @Html.LabelFor(m => m.PhoneNumber)
+    @Html.TextBoxFor(m => m.PhoneNumber)
+    <hr/>
+    <button type="submit">Register</button>
+}

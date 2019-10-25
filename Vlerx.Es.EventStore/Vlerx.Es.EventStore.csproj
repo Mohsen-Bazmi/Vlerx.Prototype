@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EventStore.ClientAPI.NetCore" Version="4.1.0.23" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.2.0" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vlerx.Es\Vlerx.Es.csproj" />
+    <ProjectReference Include="..\Vlerx.Es.EventMapping\Vlerx.Es.EventMapping.csproj" />
+    <ProjectReference Include="..\Vlerx.Es.Messaging\Vlerx.Es.Messaging.csproj" />
+  </ItemGroup>
+
+</Project>

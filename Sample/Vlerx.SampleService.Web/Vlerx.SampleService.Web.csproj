@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <PackageReference Include="EventStore.Client" Version="4.1.0.23" />
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+        <PackageReference Include="Serilog" Version="2.8.0" />
+        
+        <ProjectReference Include="..\..\Vlerx.Es.EventMapping\Vlerx.Es.EventMapping.csproj" />
+        <ProjectReference Include="..\..\Vlerx.InternalMessaging\Vlerx.InternalMessaging.csproj" />
+        <ProjectReference Include="..\..\Vlerx.Es\Vlerx.Es.csproj" />
+    </ItemGroup>
+
+    <!-- <ItemGroup>
+        <PackageReference Include="EventStore.Client" Version="5.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+        <PackageReference Include="Serilog" Version="2.8.0" />
+        <PackageReference Include="Vlerx.Es.EventMapping" Version="1.0.5" />
+        <PackageReference Include="Vlerx.InternalMessaging" Version="1.0.5" />
+        <PackageReference Include="Vlerx.Es" Version="1.0.5" />
+    </ItemGroup> -->
+
+
+    <ItemGroup>
+        <ProjectReference Include="..\Vlerx.SampleService\Vlerx.SampleService.csproj" />
+        <ProjectReference Include="..\..\Vlerx.Es.Process\Vlerx.Es.Process.csproj" />
+        <ProjectReference Include="..\Vlerx.SampleReadSide\Vlerx.SampleReadSide.csproj" />
+        <ProjectReference Include="..\Vlerx.SampleContracts\Vlerx.SampleContracts.csproj" />
+        <ProjectReference Include="..\..\Vlerx.Es.EventStore\Vlerx.Es.EventStore.csproj" />
+        
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <Folder Include="Pages" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,68 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj",
+    "projectName": "Vlerx.Es.EventStore",
+    "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj",
+    "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
+          },
+          "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
+            "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "EventStore.ClientAPI.NetCore": {
+          "target": "Package",
+          "version": "[4.1.0.23, )"
+        },
+        "Microsoft.Extensions.Hosting": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "Serilog": {
+          "target": "Package",
+          "version": "[2.8.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

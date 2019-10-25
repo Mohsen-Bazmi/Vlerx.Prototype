@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Vlerx.Es.EventMapping</PackageId>
+    <Version>1.0.5</Version>
+    <Authors>Mohsen Bazmi</Authors>
+    <Company>Vlerx</Company>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vlerx.Es\Vlerx.Es.csproj" />
+  </ItemGroup>
+
+</Project>

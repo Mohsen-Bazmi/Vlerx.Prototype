@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {}
+  },
+  "projects": {
+    "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj",
+        "projectName": "Vlerx.SampleContracts",
+        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj",
+        "packagesPath": "/home/mohsen/.nuget/packages/",
+        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/mohsen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
+                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj",
+        "projectName": "Vlerx.SampleService",
+        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj",
+        "packagesPath": "/home/mohsen/.nuget/packages/",
+        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/mohsen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
+                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj"
+              },
+              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
+                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj",
+        "projectName": "Vlerx.Es.Messaging",
+        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj",
+        "packagesPath": "/home/mohsen/.nuget/packages/",
+        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/mohsen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
+      "version": "1.0.6",
+      "restore": {
+        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj",
+        "projectName": "Vlerx.Es",
+        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj",
+        "packagesPath": "/home/mohsen/.nuget/packages/",
+        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/mohsen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
+                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
+              },
+              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
+                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "DeepCloner": {
+              "target": "Package",
+              "version": "[0.10.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj",
+        "projectName": "Vlerx.InternalMessaging",
+        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj",
+        "packagesPath": "/home/mohsen/.nuget/packages/",
+        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/mohsen/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
+                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

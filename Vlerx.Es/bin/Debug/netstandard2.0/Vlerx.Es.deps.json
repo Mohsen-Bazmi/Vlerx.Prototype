@@ -1,0 +1,121 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "5dde76c64478ce67f2b2299015f69466f3f66d7e"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Vlerx.Es/1.0.6": {
+        "dependencies": {
+          "DeepCloner": "0.10.2",
+          "NETStandard.Library": "2.0.3",
+          "Vlerx.Es.Messaging": "1.0.5",
+          "Vlerx.InternalMessaging": "1.0.5"
+        },
+        "runtime": {
+          "Vlerx.Es.dll": {}
+        }
+      },
+      "DeepCloner/0.10.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/DeepCloner.dll": {
+            "assemblyVersion": "0.10.0.0",
+            "fileVersion": "0.10.2.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Vlerx.Es.Messaging/1.0.5": {
+        "runtime": {
+          "Vlerx.Es.Messaging.dll": {}
+        }
+      },
+      "Vlerx.InternalMessaging/1.0.5": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Vlerx.Es.Messaging": "1.0.5",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0.0"
+        },
+        "runtime": {
+          "Vlerx.InternalMessaging.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions.Reference/2.2.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18315"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vlerx.Es/1.0.6": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeepCloner/0.10.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QJTEz5Y9m74S0gzarkIdljlbyx3gNOKM/UT9WZR5bS/pYZb6UX59QQWzLnu8KZc5jajQXtr/rHJcAGB39Ne6CA==",
+      "path": "deepcloner/0.10.2",
+      "hashPath": "deepcloner.0.10.2.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Vlerx.Es.Messaging/1.0.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vlerx.InternalMessaging/1.0.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions.Reference/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
