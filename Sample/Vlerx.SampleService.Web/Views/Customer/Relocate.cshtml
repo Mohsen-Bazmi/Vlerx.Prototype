@@ -5,16 +5,32 @@
     Layout = "_Layout";
 }
 
-<h2>title</h2>
-<section>Renaming Customer: @ViewBag.Name</section>
+<section>Relocating Customer: @ViewBag.Name</section>
 @using (Html.BeginForm("Relocate", "Customer", FormMethod.Post))
 {
-    @Html.HiddenFor(m => m.CustomerId)
-    <br/>
-    @Html.LabelFor(m => m.NewAddress)
-    @Html.TextBoxFor(m => m.NewAddress)
-    <br/>
-    @Html.LabelFor(m => m.NewPhoneNumber)
-    @Html.TextBoxFor(m => m.NewPhoneNumber)
-    <button type="submit">Relocate</button>
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(m=>m.NewAddress)
+            </td>
+            <td>
+                @Html.TextBoxFor(m=>m.NewAddress)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(m=>m.NewPhoneNumber)
+            </td>
+            <td>
+                @Html.TextBoxFor(m=>m.NewPhoneNumber)
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="right">
+                <button type="submit">Relocate</button>
+            </td>
+        </tr>
+    </table>
+    @Html.HiddenFor(m=>m.CustomerId)
 }

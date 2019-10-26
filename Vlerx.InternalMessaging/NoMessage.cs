@@ -1,3 +1,6 @@
-public sealed class NoMessage
+namespace Vlerx.InternalMessaging
 {
+    public sealed class NoMessage
+    {
+    }
 }

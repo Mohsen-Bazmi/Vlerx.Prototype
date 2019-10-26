@@ -2,8 +2,9 @@
 using System.Threading.Tasks;
 using Vlerx.InternalMessaging;
 using Vlerx.SampleContracts.Customers;
+using Vlerx.SampleReadSide.ProjectionPersistance;
 
-namespace Vlerx.SampleReadSide
+namespace Vlerx.SampleReadSide.Customers
 {
     public class CustomerEventListener
         : IListenTo<CustomerRegistered>
@@ -19,11 +20,7 @@ namespace Vlerx.SampleReadSide
         {
             Console.WriteLine($"Customer: {contactInfo.CustomerId} ContactInfo changed.");
             return _writer.UpdateAsync(contactInfo.CustomerId
-                                    , (Action<CustomerViewModel>)(c =>
-                                    {
-                                        c.Id = contactInfo.CustomerId;
-                                        c.PhoneNumber = contactInfo.NewPhoneNumber;
-                                    }));
+                                     , c => c.PhoneNumber = contactInfo.NewPhoneNumber);
         }
 
         public Task On(CustomerRegistered registration)
@@ -44,7 +41,7 @@ namespace Vlerx.SampleReadSide
         {
             Console.WriteLine($"Customer: {relocation.CustomerId} Relocated.");
             return _writer.UpdateAsync(relocation.CustomerId
-                                , c => c.Address = relocation.NewAddress);
+                                     , c => c.Address = relocation.NewAddress);
         }
     }
 }

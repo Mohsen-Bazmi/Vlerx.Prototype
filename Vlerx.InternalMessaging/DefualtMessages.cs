@@ -1,4 +1,7 @@
-public static class DefualtMessages
+namespace Vlerx.InternalMessaging
 {
-    public static NoMessage Nothing = new NoMessage();
+    public static class DefualtMessages
+    {
+        public static NoMessage Nothing = new NoMessage();
+    }
 }

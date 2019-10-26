@@ -13,7 +13,9 @@
       <e p="Sample" t="Include">
         <e p="Vlerx.SampleContracts" t="IncludeRecursive">
           <e p="Customers" t="Include">
+            <e p="CustomerContactInfoChanged.cs" t="Include" />
             <e p="CustomerRegistered.cs" t="Include" />
+            <e p="CustomerRelocated.cs" t="Include" />
           </e>
           <e p="Vlerx.SampleContracts.csproj" t="IncludeRecursive" />
           <e p="bin" t="ExcludeRecursive" />
@@ -26,7 +28,19 @@
           </e>
         </e>
         <e p="Vlerx.SampleReadSide" t="IncludeRecursive">
-          <e p="CustomerEventListener.cs" t="Include" />
+          <e p="Customers" t="Include">
+            <e p="CustomerEventListener.cs" t="Include" />
+            <e p="CustomerViewModel.cs" t="Include" />
+          </e>
+          <e p="ProjectionPersistance" t="Include">
+            <e p="IAtomicWriter.cs" t="Include" />
+            <e p="RavenDbAtomicWriter.cs" t="Include" />
+            <e p="RavendbDocumentStoreFactory.cs" t="Include" />
+          </e>
+          <e p="QueryPersistance" t="Include">
+            <e p="IQueryReader.cs" t="Include" />
+            <e p="QueryResponder.cs" t="Include" />
+          </e>
           <e p="Vlerx.SampleReadSide.csproj" t="IncludeRecursive" />
           <e p="bin" t="ExcludeRecursive" />
           <e p="obj" t="ExcludeRecursive">
@@ -110,6 +124,7 @@
           <e p="Startup.cs" t="Include" />
           <e p="Views" t="Include">
             <e p="Customer" t="Include">
+              <e p="All.cshtml" t="Include" />
               <e p="Register.cshtml" t="Include" />
               <e p="Relocate.cshtml" t="Include" />
             </e>
@@ -398,9 +413,15 @@
         </e>
       </e>
       <e p="Vlerx.InternalMessaging" t="IncludeRecursive">
+        <e p="DefualtMessages.cs" t="Include" />
         <e p="IListenTo.cs" t="Include" />
         <e p="IMessenger.cs" t="Include" />
+        <e p="IOnewayAsyncMessenger.cs" t="Include" />
+        <e p="IRequester.cs" t="Include" />
+        <e p="IRespondTo.cs" t="Include" />
         <e p="MessageBroadcaster.cs" t="Include" />
+        <e p="NoMessage.cs" t="Include" />
+        <e p="Requester.cs" t="Include" />
         <e p="Vlerx.InternalMessaging.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">

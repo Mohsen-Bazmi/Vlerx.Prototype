@@ -2,28 +2,31 @@ using Raven.Client.Documents;
 using Raven.Client.ServerWide;
 using Raven.Client.ServerWide.Operations;
 
-public static class RavendbDocumentStoreFactory
+namespace Vlerx.SampleReadSide.ProjectionPersistance
 {
-    public static IDocumentStore CreateDocStore(string serverUrl, string databaseName)
+    public static class RavendbDocumentStoreFactory
     {
-        var store = new DocumentStore
+        public static IDocumentStore CreateDocStore(string serverUrl, string databaseName)
         {
-            Urls = new[] { serverUrl },
-            Database = databaseName
-        };
-        store.Initialize();
+            var store = new DocumentStore
+            {
+                Urls = new[] { serverUrl },
+                Database = databaseName
+            };
+            store.Initialize();
 
-        var record = store.Maintenance.Server.Send(
-            new GetDatabaseRecordOperation(store.Database)
-        );
-
-        if (record == null)
-            store.Maintenance.Server.Send(
-                new CreateDatabaseOperation(
-                    new DatabaseRecord(store.Database)
-                )
+            var record = store.Maintenance.Server.Send(
+                new GetDatabaseRecordOperation(store.Database)
             );
 
-        return store;
+            if (record == null)
+                store.Maintenance.Server.Send(
+                    new CreateDatabaseOperation(
+                        new DatabaseRecord(store.Database)
+                    )
+                );
+
+            return store;
+        }
     }
 }

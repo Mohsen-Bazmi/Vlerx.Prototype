@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Vlerx.Es.StoryBroker;
 using Vlerx.InternalMessaging;
+using Vlerx.SampleReadSide.Customers;
+using Vlerx.SampleReadSide.QueryPersistance;
 using Vlerx.SampleService.Customers.Commands;
 using Vlerx.SampleService.Web.Customers;
 
@@ -65,7 +67,7 @@ namespace Vlerx.SampleService.Web.Controllers
         public IActionResult All()
         {
             List<CustomerViewModel> Customers =
-                _queryReader.Get(Queries.All).ToList();
+                _queryReader.Get(Query.All).ToList();
             return View(Customers);
         }
     }

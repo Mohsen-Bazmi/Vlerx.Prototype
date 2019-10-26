@@ -11,9 +11,7 @@ namespace Vlerx.InternalMessaging
         readonly IServiceProvider _services;
 
         protected Requester(IServiceProvider services)
-        {
-            _services = services;
-        }
+        => _services = services;
 
 
         public TResponse Get<TResponse>(TMessage message)

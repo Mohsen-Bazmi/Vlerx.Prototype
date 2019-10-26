@@ -15,6 +15,9 @@ using Vlerx.Es.StoryBroker;
 using Vlerx.InternalMessaging;
 using Vlerx.SampleContracts.Customers;
 using Vlerx.SampleReadSide;
+using Vlerx.SampleReadSide.Customers;
+using Vlerx.SampleReadSide.ProjectionPersistance;
+using Vlerx.SampleReadSide.QueryPersistance;
 using Vlerx.SampleService.Customers;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 

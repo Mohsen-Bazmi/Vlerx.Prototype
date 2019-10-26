@@ -5,20 +5,49 @@
 @*     Layout = "_Layout"; *@
 @* } *@
 
-@* <h2>title</h2> *@
+<!-- @* <h2>title</h2> *@ -->
 @using (Html.BeginForm("Register", "Customer", FormMethod.Post))
 {
-    @Html.LabelFor(m => m.FirstName)
-    @Html.TextBoxFor(m => m.FirstName)
-    <hr/>
-    @Html.LabelFor(m => m.LastName)
-    @Html.TextBoxFor(m => m.LastName)
-    <hr/>
-    @Html.LabelFor(m => m.Address)
-    @Html.TextBoxFor(m => m.Address)
-    <hr/>
-    @Html.LabelFor(m => m.PhoneNumber)
-    @Html.TextBoxFor(m => m.PhoneNumber)
-    <hr/>
-    <button type="submit">Register</button>
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.FirstName)
+            </td>
+            <td>
+                @Html.TextBoxFor(m => m.FirstName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.LastName)
+            </td>
+            <td>
+                @Html.TextBoxFor(m => m.LastName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.Address)
+            </td>
+            <td>
+                @Html.TextBoxFor(m => m.Address)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.PhoneNumber)
+            </td>
+            <td>
+                @Html.TextBoxFor(m => m.PhoneNumber)
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="right">
+                <button type="submit">Register</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
 }
