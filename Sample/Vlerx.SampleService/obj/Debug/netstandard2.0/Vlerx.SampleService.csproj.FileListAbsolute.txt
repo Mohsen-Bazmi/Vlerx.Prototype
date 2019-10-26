@@ -44,7 +44,6 @@
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.SampleContracts.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/Debug/netstandard2.0/Vlerx.SampleService.csproj.CopyComplete

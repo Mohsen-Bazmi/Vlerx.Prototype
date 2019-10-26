@@ -34,7 +34,6 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.runtimeconfig.dev.json
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Process.Tests.dll

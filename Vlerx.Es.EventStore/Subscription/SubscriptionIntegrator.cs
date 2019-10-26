@@ -19,7 +19,7 @@ namespace Vlerx.Es.EventStore.Subscription
         private readonly IEventStoreConnection _connection;
 
         private readonly IEventDeserializer _deserializer;
-        private readonly IMessenger<EventEnvelope> _messenger;
+        private readonly IOnewayAsyncMessenger<EventEnvelope> _messenger;
 
         private readonly string _subscriptionName;
         // EventStoreAllCatchUpSubscription _subscription;
@@ -27,7 +27,7 @@ namespace Vlerx.Es.EventStore.Subscription
         public SubscriptionIntegrator(IEventStoreConnection connection
             , ICheckpointStore checkpointStore
             , string subscriptionName
-            , IMessenger<EventEnvelope> messenger
+            , IOnewayAsyncMessenger<EventEnvelope> messenger
             , IEventDeserializer deserializer)
         {
             _connection = connection;

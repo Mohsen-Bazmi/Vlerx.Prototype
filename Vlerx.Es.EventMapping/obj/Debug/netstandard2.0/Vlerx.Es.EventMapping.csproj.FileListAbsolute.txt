@@ -50,7 +50,6 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.Es.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/obj/Debug/netstandard2.0/Vlerx.Es.EventMapping.csproj.CopyComplete

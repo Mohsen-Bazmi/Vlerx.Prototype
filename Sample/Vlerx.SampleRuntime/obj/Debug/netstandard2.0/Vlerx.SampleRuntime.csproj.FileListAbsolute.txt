@@ -38,7 +38,6 @@
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/bin/Debug/netstandard2.0/Vlerx.SampleRuntime.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/bin/Debug/netstandard2.0/Vlerx.SampleRuntime.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/obj/Debug/netstandard2.0/Vlerx.SampleRuntime.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/obj/Debug/netstandard2.0/Vlerx.SampleRuntime.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/obj/Debug/netstandard2.0/Vlerx.SampleRuntime.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/obj/Debug/netstandard2.0/Vlerx.SampleRuntime.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/obj/Debug/netstandard2.0/Vlerx.SampleRuntime.dll

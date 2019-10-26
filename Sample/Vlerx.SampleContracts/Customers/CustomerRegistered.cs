@@ -20,28 +20,4 @@ namespace Vlerx.SampleContracts.Customers
         public string FirstName { get; }
         public string LastName { get; }
     }
-
-    public class CustomerRelocated : IDomainEvent
-    {
-        public CustomerRelocated(string customerId, string newAddress)
-        {
-            CustomerId = customerId;
-            NewAddress = newAddress;
-        }
-
-        public string CustomerId { get; }
-        public string NewAddress { get; }
-    }
-
-    public class CustomerContactInfoChanged : IDomainEvent
-    {
-        public CustomerContactInfoChanged(string customerId, string newPhoneNumber)
-        {
-            CustomerId = customerId;
-            NewPhoneNumber = newPhoneNumber;
-        }
-
-        public string CustomerId { get; }
-        public string NewPhoneNumber { get; }
-    }
 }

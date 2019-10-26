@@ -34,15 +34,10 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Messaging.dll
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.dll
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.Messaging.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Vlerx.InternalMessaging.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/bin/Debug/netcoreapp2.2/Microsoft.Extensions.DependencyInjection.Abstractions.xml
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.Bdd.Tools.Tests.csproj.CopyComplete

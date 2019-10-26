@@ -35,10 +35,9 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csproj.CopyComplete
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb
+/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/Debug/netstandard2.0/Vlerx.InternalMessaging.csprojAssemblyReference.cache

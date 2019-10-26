@@ -10,7 +10,6 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/obj/Debug/netstandard2.0/Vlerx.Es.EventStore.csproj.CopyComplete

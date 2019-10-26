@@ -5,7 +5,7 @@ using Vlerx.InternalMessaging;
 
 namespace Vlerx.Es.Process
 {
-    public class ProcessMessenger : IMessenger<EventEnvelope>
+    public class ProcessMessenger : IOnewayAsyncMessenger<EventEnvelope>
     {
         private readonly IProcessReactor[] _processes;
 

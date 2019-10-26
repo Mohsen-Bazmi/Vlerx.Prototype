@@ -83,7 +83,6 @@
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleContracts.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Microsoft.Extensions.DependencyInjection.Abstractions.xml
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.csproj.CopyComplete

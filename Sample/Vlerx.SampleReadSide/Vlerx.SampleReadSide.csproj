@@ -5,6 +5,10 @@
     <ProjectReference Include="..\..\Vlerx.InternalMessaging\Vlerx.InternalMessaging.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ravendb.client" Version="4.2.4" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>

@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Vlerx.InternalMessaging
 {
-    public class MessageBroadcaster<TMessage> : IMessenger<TMessage>
+    public class MessageBroadcaster<TMessage> : IOnewayAsyncMessenger<TMessage>
     {
         readonly IServiceProvider _services;
 
@@ -27,7 +27,7 @@ namespace Vlerx.InternalMessaging
 
         protected virtual Task On(IEnumerable<object> listeners, object payload)
             => Task.WhenAll(listeners.Select(listener => (Task)
-                ((dynamic) listener).On((dynamic) payload)));
+                ((dynamic)listener).On((dynamic)payload)));
 
         IEnumerable<object> FindListenersOf(object payload)
         {
@@ -35,7 +35,7 @@ namespace Vlerx.InternalMessaging
             return _services.GetServices(listenerType);
         }
 
-        public static IMessenger<TMessage> Subscribe(IServiceProvider services
+        public static IOnewayAsyncMessenger<TMessage> Subscribe(IServiceProvider services
             , Func<TMessage, object> getPayload = null)
             => new MessageBroadcaster<TMessage>(services, getPayload);
 

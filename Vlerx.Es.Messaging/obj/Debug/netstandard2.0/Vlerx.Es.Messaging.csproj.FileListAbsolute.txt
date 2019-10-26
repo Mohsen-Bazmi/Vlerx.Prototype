@@ -19,9 +19,8 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.deps.json
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb
+/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/obj/Debug/netstandard2.0/Vlerx.Es.Messaging.csprojAssemblyReference.cache

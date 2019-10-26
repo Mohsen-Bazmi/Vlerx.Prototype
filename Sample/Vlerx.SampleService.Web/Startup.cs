@@ -53,7 +53,14 @@ namespace Vlerx.SampleService.Web
             );
             services.AddSingleton(stories);
 
-            services.AddSingleton<CustomerEventListener>();
+            var documentStore = RavendbDocumentStoreFactory.CreateDocStore(
+                                Configuration["RavenDb:Server"],
+                                Configuration["RavenDb:Database"]
+                            );
+            var customerViewModelWriter =
+                new RaventDbAtomicWriter<string, CustomerViewModel>(documentStore);
+            services.AddSingleton<IAtomicWriter<string, CustomerViewModel>>(customerViewModelWriter);
+            services.AddSingleton(new CustomerEventListener(customerViewModelWriter));
             services.AddSingleton<IListenTo<CustomerRegistered>>(x => x.GetService<CustomerEventListener>());
             services.AddSingleton<IListenTo<CustomerRegistered>>(x => x.GetService<CustomerEventListener>());
             services.AddSingleton<IListenTo<CustomerRelocated>>(x => x.GetService<CustomerEventListener>());
@@ -82,10 +89,14 @@ namespace Vlerx.SampleService.Web
                     , m => m.Payload)
                 , eventSerdes
             );
+
             var eventStoreService = new EventStoreService(
                 esConnection,
                 subscriptionIntegrator);
             services.AddSingleton<IHostedService>(eventStoreService);
+
+            services.AddSingleton<IQueryReader<CustomerViewModel>>(new RavenDbQueryReader<CustomerViewModel>(documentStore));
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

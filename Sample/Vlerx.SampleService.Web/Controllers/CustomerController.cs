@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Vlerx.Es.StoryBroker;
@@ -11,11 +13,11 @@ namespace Vlerx.SampleService.Web.Controllers
     public class CustomerController : Controller
     {
         private readonly IStories _stories;
-
-        public CustomerController(IStories stories)
-
+        readonly IQueryReader<CustomerViewModel> _queryReader;
+        public CustomerController(IStories stories, IQueryReader<CustomerViewModel> queryReader)
         {
             _stories = stories;
+            _queryReader = queryReader;
         }
 
         public IActionResult Register()
@@ -34,7 +36,7 @@ namespace Vlerx.SampleService.Web.Controllers
                 , viewModel.Address
                 , viewModel.PhoneNumber
             ));
-            return RedirectToAction(nameof(Relocate), new {customerId});
+            return RedirectToAction(nameof(All));
         }
 
         [HttpGet("Customer/Relocate/customerId")]
@@ -57,7 +59,14 @@ namespace Vlerx.SampleService.Web.Controllers
                 , viewModel.NewAddress
                 , viewModel.NewPhoneNumber
             ));
-            return RedirectToAction(nameof(Register));
+            return RedirectToAction(nameof(All));
+        }
+        [HttpGet]
+        public IActionResult All()
+        {
+            List<CustomerViewModel> Customers =
+                _queryReader.Get(Queries.All).ToList();
+            return View(Customers);
         }
     }
 }

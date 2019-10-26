@@ -39,14 +39,9 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.dll
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.dll
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/obj/Debug/netstandard2.0/Vlerx.Es.Bdd.Tools.csproj.CopyComplete

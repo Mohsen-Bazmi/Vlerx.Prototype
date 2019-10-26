@@ -49,7 +49,6 @@
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.EventMapping.Tests.dll
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/bin/Debug/netcoreapp2.2/Vlerx.Es.EventMapping.Tests.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.EventMapping.Tests.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.EventMapping.Tests.csproj.CoreCompileInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.EventMapping.Tests.AssemblyInfoInputs.cache
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.EventMapping.Tests.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/obj/Debug/netcoreapp2.2/Vlerx.Es.EventMapping.Tests.dll
