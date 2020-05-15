@@ -1,17 +1,17 @@
 # Vlerx.Prototype
 A reactive event sourcing framework.
 
-How to test the behaviour:
+How to test the behaviour using [BDD tools](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Vlerx.Es.Bdd.Tools):
 ```cs
         [Theory]
         [InlineData("My Id", "09100000000", "09101111111")]
         public void RelocateCustomer_CustomerRelocatedAndContactInfoChanged(string customerId, string newAddress, string newPhoneNumber)
         {
             Given(new CustomerRegistered(customerId
-                , firstName: "Mohsen"
-                , lastName: "Bazmi"
-                , address: "My Old Address"
-                , phoneNumber: "09100000000"));
+                                        , firstName: "Mohsen"
+                                        , lastName: "Bazmi"
+                                        , address: "My Old Address"
+                                        , phoneNumber: "09100000000"));
             When(new RelocateCustomer(customerId, newAddress, newPhoneNumber));
             Then(new CustomerRelocated(customerId, newAddress)
                 , new CustomerContactInfoChanged(customerId, newPhoneNumber));
