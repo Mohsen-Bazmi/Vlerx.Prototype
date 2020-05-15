@@ -5864,11 +5864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/Vlerx.Es.EventMapping.Tests.csproj",
+      "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping.Tests/Vlerx.Es.EventMapping.Tests.csproj",
       "projectName": "Vlerx.Es.EventMapping.Tests",
-      "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/Vlerx.Es.EventMapping.Tests.csproj",
+      "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping.Tests/Vlerx.Es.EventMapping.Tests.csproj",
       "packagesPath": "/home/mohsen/.nuget/packages/",
-      "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping.Tests/obj/",
+      "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5925,7 +5925,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,10 +13,10 @@
           "Microsoft.Extensions.Hosting": "2.2.0",
           "NETStandard.Library": "2.0.3",
           "Serilog": "2.8.0",
-          "Vlerx.Es": "1.0.6",
+          "Vlerx.Es": "1.0.7",
           "Vlerx.Es.EventMapping": "1.0.5",
           "Vlerx.Es.Messaging": "1.0.5",
-          "Vlerx.InternalMessaging": "1.0.5"
+          "Vlerx.InternalMessaging": "1.0.6"
         },
         "runtime": {
           "Vlerx.Es.EventStore.dll": {}
@@ -648,7 +648,7 @@
           }
         }
       },
-      "Vlerx.Es/1.0.6": {
+      "Vlerx.Es/1.0.7": {
         "dependencies": {
           "DeepCloner": "0.10.2",
           "Vlerx.Es.Messaging": "1.0.5"
@@ -660,7 +660,7 @@
       "Vlerx.Es.EventMapping/1.0.5": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Vlerx.Es": "1.0.6"
+          "Vlerx.Es": "1.0.7"
         },
         "runtime": {
           "Vlerx.Es.EventMapping.dll": {}
@@ -671,7 +671,7 @@
           "Vlerx.Es.Messaging.dll": {}
         }
       },
-      "Vlerx.InternalMessaging/1.0.5": {
+      "Vlerx.InternalMessaging/1.0.6": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0"
         },
@@ -1093,7 +1093,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Vlerx.Es/1.0.6": {
+    "Vlerx.Es/1.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1108,7 +1108,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Vlerx.InternalMessaging/1.0.5": {
+    "Vlerx.InternalMessaging/1.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <PackageId>Vlerx.Es</PackageId>
-        <Version>1.0.6</Version>
+        <Version>1.0.7</Version>
         <Authors>Mohsen Bazmi</Authors>
         <Company>Vlerx</Company>
         <LangVersion>8</LangVersion>

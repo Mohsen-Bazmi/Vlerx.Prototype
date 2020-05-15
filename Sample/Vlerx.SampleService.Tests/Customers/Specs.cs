@@ -10,8 +10,8 @@ namespace Vlerx.SampleService.Tests.Customers
 {
     public class CustomerSpecs : BehaviouralSpecs
     {
-        public CustomerSpecs() : base(Scenarios.OfStories(
-            es => Stories.OfUseCases(
+        public CustomerSpecs() 
+        : base(Scenarios.OfStories(es => Stories.OfUseCases(
                 new CustomerUseCases(new Repository<Customer.State>(es))
             )))
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj": {}
+    "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj": {}
   },
   "projects": {
-    "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
+    "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj",
+        "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj",
         "projectName": "Vlerx.SampleContracts",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj",
+        "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj",
         "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/obj/",
+        "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
+              "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
+                "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
               }
             }
           }
@@ -60,18 +60,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj": {
+    "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
+        "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
         "projectName": "Vlerx.SampleService.Tests",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
+        "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
         "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Tests/obj/",
+        "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Tests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -88,17 +88,17 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
+              "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
+                "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
               },
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj"
+              "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj": {
+                "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj"
               },
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
+              "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj": {
+                "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj"
               },
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
+              "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
+                "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
               }
             }
           }
@@ -141,18 +141,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
+    "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj",
+        "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj",
         "projectName": "Vlerx.SampleService",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj",
+        "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj",
         "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/obj/",
+        "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -169,11 +169,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj"
+              "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
+                "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj"
               },
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
+              "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj": {
+                "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj"
               }
             }
           }
@@ -204,18 +204,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj": {
-      "version": "1.0.5",
+    "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj": {
+      "version": "1.0.6",
       "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj",
+        "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj",
         "projectName": "Vlerx.Es.Bdd.Tools",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj",
+        "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj",
         "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/obj/",
+        "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -232,8 +232,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
+              "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj": {
+                "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj"
               }
             }
           }
@@ -268,18 +268,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
+    "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
       "version": "1.0.5",
       "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj",
+        "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj",
         "projectName": "Vlerx.Es.Messaging",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj",
+        "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj",
         "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/obj/",
+        "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Messaging/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -324,18 +324,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
-      "version": "1.0.6",
+    "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj": {
+      "version": "1.0.7",
       "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj",
+        "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj",
         "projectName": "Vlerx.Es",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj",
+        "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj",
         "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/obj/",
+        "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -352,8 +352,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
-                "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
+              "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj": {
+                "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Messaging/Vlerx.Es.Messaging.csproj"
               }
             }
           }
@@ -388,18 +388,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
-      "version": "1.0.5",
+    "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
+      "version": "1.0.6",
       "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj",
+        "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj",
         "projectName": "Vlerx.InternalMessaging",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj",
+        "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj",
         "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/obj/",
+        "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -448,7 +448,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     }

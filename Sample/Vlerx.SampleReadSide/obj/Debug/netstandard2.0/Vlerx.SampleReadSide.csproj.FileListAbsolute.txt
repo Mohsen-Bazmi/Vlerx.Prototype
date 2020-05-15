@@ -1,6 +1,3 @@
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.csprojAssemblyReference.cache
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.AssemblyInfoInputs.cache
-/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.SampleReadSide.deps.json
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.SampleReadSide.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.SampleReadSide.pdb
@@ -12,6 +9,9 @@
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.InternalMessaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Vlerx.Es.Messaging.pdb
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.csprojAssemblyReference.cache
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.AssemblyInfoInputs.cache
+/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.AssemblyInfo.cs
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.csproj.CopyComplete
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.dll
 /home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/obj/Debug/netstandard2.0/Vlerx.SampleReadSide.pdb

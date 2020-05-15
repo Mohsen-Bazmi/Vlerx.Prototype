@@ -4537,7 +4537,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Vlerx.Es/1.0.6": {
+      "Vlerx.Es/1.0.7": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4556,7 +4556,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Vlerx.Es": "1.0.6"
+          "Vlerx.Es": "1.0.7"
         },
         "compile": {
           "bin/placeholder/Vlerx.Es.EventMapping.dll": {}
@@ -4572,10 +4572,10 @@
           "EventStore.ClientAPI.NetCore": "4.1.0.23",
           "Microsoft.Extensions.Hosting": "2.2.0",
           "Serilog": "2.8.0",
-          "Vlerx.Es": "1.0.6",
+          "Vlerx.Es": "1.0.7",
           "Vlerx.Es.EventMapping": "1.0.5",
           "Vlerx.Es.Messaging": "1.0.5",
-          "Vlerx.InternalMessaging": "1.0.5"
+          "Vlerx.InternalMessaging": "1.0.6"
         },
         "compile": {
           "bin/placeholder/Vlerx.Es.EventStore.dll": {}
@@ -4599,9 +4599,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "DeepCloner": "0.10.2",
-          "Vlerx.Es": "1.0.6",
+          "Vlerx.Es": "1.0.7",
           "Vlerx.Es.Messaging": "1.0.5",
-          "Vlerx.InternalMessaging": "1.0.5"
+          "Vlerx.InternalMessaging": "1.0.6"
         },
         "compile": {
           "bin/placeholder/Vlerx.Es.Process.dll": {}
@@ -4610,7 +4610,7 @@
           "bin/placeholder/Vlerx.Es.Process.dll": {}
         }
       },
-      "Vlerx.InternalMessaging/1.0.5": {
+      "Vlerx.InternalMessaging/1.0.6": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4640,7 +4640,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Vlerx.InternalMessaging": "1.0.5",
+          "Vlerx.InternalMessaging": "1.0.6",
           "Vlerx.SampleContracts": "1.0.0",
           "ravendb.client": "4.2.4"
         },
@@ -4655,7 +4655,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Vlerx.Es": "1.0.6",
+          "Vlerx.Es": "1.0.7",
           "Vlerx.SampleContracts": "1.0.0"
         },
         "compile": {
@@ -12400,7 +12400,7 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Vlerx.Es/1.0.6": {
+    "Vlerx.Es/1.0.7": {
       "type": "project",
       "path": "../../Vlerx.Es/Vlerx.Es.csproj",
       "msbuildProject": "../../Vlerx.Es/Vlerx.Es.csproj"
@@ -12425,7 +12425,7 @@
       "path": "../../Vlerx.Es.Process/Vlerx.Es.Process.csproj",
       "msbuildProject": "../../Vlerx.Es.Process/Vlerx.Es.Process.csproj"
     },
-    "Vlerx.InternalMessaging/1.0.5": {
+    "Vlerx.InternalMessaging/1.0.6": {
       "type": "project",
       "path": "../../Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj",
       "msbuildProject": "../../Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
@@ -12453,11 +12453,11 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Serilog >= 2.8.0",
-      "Vlerx.Es >= 1.0.6",
+      "Vlerx.Es >= 1.0.7",
       "Vlerx.Es.EventMapping >= 1.0.5",
       "Vlerx.Es.EventStore >= 1.0.0",
       "Vlerx.Es.Process >= 1.0.0",
-      "Vlerx.InternalMessaging >= 1.0.5",
+      "Vlerx.InternalMessaging >= 1.0.6",
       "Vlerx.SampleContracts >= 1.0.0",
       "Vlerx.SampleReadSide >= 1.0.0",
       "Vlerx.SampleService >= 1.0.0"
@@ -12470,11 +12470,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
+      "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
       "projectName": "Vlerx.SampleService.Web",
-      "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
+      "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
       "packagesPath": "/home/mohsen/.nuget/packages/",
-      "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService.Web/obj/",
+      "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Web/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -12491,29 +12491,29 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj"
             },
-            "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj"
             },
-            "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
             },
-            "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj"
             },
-            "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj"
             },
-            "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process/Vlerx.Es.Process.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Process/Vlerx.Es.Process.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Process/Vlerx.Es.Process.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Process/Vlerx.Es.Process.csproj"
             },
-            "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj"
             },
-            "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
             }
           }
         }
@@ -12563,7 +12563,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   },

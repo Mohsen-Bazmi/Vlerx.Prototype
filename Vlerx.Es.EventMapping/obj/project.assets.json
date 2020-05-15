@@ -47,7 +47,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Vlerx.Es/1.0.6": {
+      "Vlerx.Es/1.0.7": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -262,7 +262,7 @@
         "newtonsoft.json.nuspec"
       ]
     },
-    "Vlerx.Es/1.0.6": {
+    "Vlerx.Es/1.0.7": {
       "type": "project",
       "path": "../Vlerx.Es/Vlerx.Es.csproj",
       "msbuildProject": "../Vlerx.Es/Vlerx.Es.csproj"
@@ -277,7 +277,7 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.2",
-      "Vlerx.Es >= 1.0.6"
+      "Vlerx.Es >= 1.0.7"
     ]
   },
   "packageFolders": {
@@ -287,11 +287,11 @@
   "project": {
     "version": "1.0.5",
     "restore": {
-      "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj",
+      "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj",
       "projectName": "Vlerx.Es.EventMapping",
-      "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj",
+      "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj",
       "packagesPath": "/home/mohsen/.nuget/packages/",
-      "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.EventMapping/obj/",
+      "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -308,8 +308,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es/Vlerx.Es.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj"
             }
           }
         }
@@ -344,7 +344,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }

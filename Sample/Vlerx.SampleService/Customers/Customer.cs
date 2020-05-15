@@ -8,22 +8,21 @@ namespace Vlerx.SampleService.Customers
 {
     public static class Customer
     {
-        public static AggregateState<State>.Transition Register(string customerId
+        public static State.Transition Register(string customerId
             , string firstName
             , string lastName
             , string address
             , string phoneNumber)
-        {
-            return new State(Guid.NewGuid().ToString())
-                .Apply(new CustomerRegistered(customerId
-                    , firstName
-                    , lastName
-                    , address
-                    , phoneNumber));
-        }
+        => new State(Guid.NewGuid().ToString())
+            .Apply(new CustomerRegistered(customerId
+                , firstName
+                , lastName
+                , address
+                , phoneNumber));
 
 
-        public static AggregateState<State>.Transition Relocate(this State customer
+
+        public static State.Transition Relocate(this State customer
             , string newAddress
             , string newPhoneNumber)
         {
@@ -39,9 +38,7 @@ namespace Vlerx.SampleService.Customers
         public class State : AggregateState<State>
         {
             public State(string id)
-            {
-                Id = id;
-            }
+            => Id = id;
 
             public string Name { get; private set; }
             public string Address { get; private set; }
@@ -56,20 +53,14 @@ namespace Vlerx.SampleService.Customers
             }
 
             public void On(CustomerRelocated e)
-            {
-                Address = e.NewAddress;
-            }
+            => Address = e.NewAddress;
 
             public void On(CustomerContactInfoChanged e)
-            {
-                PhoneNumber = e.NewPhoneNumber;
-            }
+            => PhoneNumber = e.NewPhoneNumber;
 
 
             public override string StreamNameForId(string id)
-            {
-                return $"Customer-{id}";
-            }
+            => $"Customer-{id}";
         }
     }
 }

@@ -15,11 +15,12 @@ namespace Vlerx.SampleService.Web.Controllers
     public class CustomerController : Controller
     {
         private readonly IStories _stories;
-        readonly IQueryReader<CustomerViewModel> _queryReader;
-        public CustomerController(IStories stories, IQueryReader<CustomerViewModel> queryReader)
+        readonly IQueryReader<CustomerViewModel> _customers;
+        public CustomerController(IStories stories
+                                , IQueryReader<CustomerViewModel> customers)
         {
             _stories = stories;
-            _queryReader = queryReader;
+            _customers = customers;
         }
 
         public IActionResult Register()
@@ -56,6 +57,12 @@ namespace Vlerx.SampleService.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Relocate(RelocationViewModel viewModel)
         {
+            //Valiate (fluent validation)
+            //await bus.Send(new RelocateCustomer(
+            //     viewModel.CustomerId
+            //     , viewModel.NewAddress
+            //     , viewModel.NewPhoneNumber
+            // ));=>
             await _stories.Tell(new RelocateCustomer(
                 viewModel.CustomerId
                 , viewModel.NewAddress
@@ -66,9 +73,7 @@ namespace Vlerx.SampleService.Web.Controllers
         [HttpGet]
         public IActionResult All()
         {
-            List<CustomerViewModel> Customers =
-                _queryReader.Get(Query.All).ToList();
-            return View(Customers);
+            return View(_customers.Get(Query.All));
         }
     }
 }

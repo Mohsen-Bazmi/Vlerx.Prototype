@@ -9,7 +9,7 @@
       "Vlerx.Es.Bdd.Tools.Tests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.0.1",
-          "Vlerx.Es.Bdd.Tools": "1.0.5",
+          "Vlerx.Es.Bdd.Tools": "1.0.6",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
@@ -947,7 +947,7 @@
           "Microsoft.NET.Test.Sdk": "16.0.1"
         }
       },
-      "Vlerx.Es/1.0.6": {
+      "Vlerx.Es/1.0.7": {
         "dependencies": {
           "DeepCloner": "0.10.2",
           "Vlerx.Es.Messaging": "1.0.5"
@@ -956,10 +956,10 @@
           "Vlerx.Es.dll": {}
         }
       },
-      "Vlerx.Es.Bdd.Tools/1.0.5": {
+      "Vlerx.Es.Bdd.Tools/1.0.6": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Vlerx.Es": "1.0.6"
+          "Vlerx.Es": "1.0.7"
         },
         "runtime": {
           "Vlerx.Es.Bdd.Tools.dll": {}
@@ -1496,12 +1496,12 @@
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
-    "Vlerx.Es/1.0.6": {
+    "Vlerx.Es/1.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Vlerx.Es.Bdd.Tools/1.0.5": {
+    "Vlerx.Es.Bdd.Tools/1.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging.Tests/Vlerx.InternalMessaging.Tests.csproj": {}
+    "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging.Tests/Vlerx.InternalMessaging.Tests.csproj": {}
   },
   "projects": {
-    "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging.Tests/Vlerx.InternalMessaging.Tests.csproj": {
+    "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging.Tests/Vlerx.InternalMessaging.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging.Tests/Vlerx.InternalMessaging.Tests.csproj",
+        "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging.Tests/Vlerx.InternalMessaging.Tests.csproj",
         "projectName": "Vlerx.InternalMessaging.Tests",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging.Tests/Vlerx.InternalMessaging.Tests.csproj",
+        "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging.Tests/Vlerx.InternalMessaging.Tests.csproj",
         "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.InternalMessaging.Tests/obj/",
+        "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging.Tests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -68,7 +68,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     }

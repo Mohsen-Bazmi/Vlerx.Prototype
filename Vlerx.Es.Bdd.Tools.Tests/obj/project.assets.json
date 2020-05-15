@@ -1603,7 +1603,7 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Vlerx.Es/1.0.6": {
+      "Vlerx.Es/1.0.7": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1617,12 +1617,12 @@
           "bin/placeholder/Vlerx.Es.dll": {}
         }
       },
-      "Vlerx.Es.Bdd.Tools/1.0.5": {
+      "Vlerx.Es.Bdd.Tools/1.0.6": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Vlerx.Es": "1.0.6"
+          "Vlerx.Es": "1.0.7"
         },
         "compile": {
           "bin/placeholder/Vlerx.Es.Bdd.Tools.dll": {}
@@ -5649,12 +5649,12 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Vlerx.Es/1.0.6": {
+    "Vlerx.Es/1.0.7": {
       "type": "project",
       "path": "../Vlerx.Es/Vlerx.Es.csproj",
       "msbuildProject": "../Vlerx.Es/Vlerx.Es.csproj"
     },
-    "Vlerx.Es.Bdd.Tools/1.0.5": {
+    "Vlerx.Es.Bdd.Tools/1.0.6": {
       "type": "project",
       "path": "../Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj",
       "msbuildProject": "../Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj"
@@ -5669,7 +5669,7 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Vlerx.Es.Bdd.Tools >= 1.0.5",
+      "Vlerx.Es.Bdd.Tools >= 1.0.6",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -5681,11 +5681,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/Vlerx.Es.Bdd.Tools.Tests.csproj",
+      "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools.Tests/Vlerx.Es.Bdd.Tools.Tests.csproj",
       "projectName": "Vlerx.Es.Bdd.Tools.Tests",
-      "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/Vlerx.Es.Bdd.Tools.Tests.csproj",
+      "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools.Tests/Vlerx.Es.Bdd.Tools.Tests.csproj",
       "packagesPath": "/home/mohsen/.nuget/packages/",
-      "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools.Tests/obj/",
+      "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5702,8 +5702,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj": {
-              "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj"
+            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj": {
+              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj"
             }
           }
         }
@@ -5746,7 +5746,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Vlerx.Es/1.0.6": {
+      "Vlerx.Es/1.0.7": {
         "dependencies": {
           "DeepCloner": "0.10.2",
           "NETStandard.Library": "2.0.3",
@@ -42,7 +42,7 @@
     }
   },
   "libraries": {
-    "Vlerx.Es/1.0.6": {
+    "Vlerx.Es/1.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

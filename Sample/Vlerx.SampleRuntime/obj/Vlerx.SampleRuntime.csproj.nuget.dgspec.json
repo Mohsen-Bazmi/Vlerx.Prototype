@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj": {}
+    "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj": {}
   },
   "projects": {
-    "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj": {
+    "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
+        "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
         "projectName": "Vlerx.SampleRuntime",
-        "projectPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
+        "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
         "packagesPath": "/home/mohsen/.nuget/packages/",
-        "outputPath": "/home/mohsen/Desktop/Old/al/111/shared/Sample/Vlerx.SampleRuntime/obj/",
+        "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleRuntime/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -56,7 +56,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     }
