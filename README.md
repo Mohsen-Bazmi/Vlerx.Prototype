@@ -96,7 +96,7 @@ Aggregate root with it's state separated from it's logic:
             => $"Customer-{id}";
         }
     }
-    ```
+```
 Projection:
 ```cs
     public class CustomerEventListener
