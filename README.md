@@ -1,5 +1,5 @@
 # Vlerx.Prototype
-A reactive event sourcing framework.
+An extensible reactive event sourcing framework.
 
 How to test the behaviour using [BDD tools](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Vlerx.Es.Bdd.Tools):
 ```cs
@@ -115,5 +115,6 @@ Projection:
         ...
     }
 ```
-[Sample Application](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Sample):
+[Sample Application is available](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Sample):
+
 Before running the sample call `docker-compose up` at [env](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Sample/env) folder.
