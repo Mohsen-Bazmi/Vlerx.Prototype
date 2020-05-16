@@ -34,7 +34,7 @@ How to define use cases (application layer):
             
         }
         ...
-}
+    }
 ```
 Aggregate root with it's state separated from it's logic:
 ```cs
