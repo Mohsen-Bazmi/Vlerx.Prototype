@@ -117,4 +117,4 @@ Projection:
 ```
 Sample Application is [available](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Sample):
 
-Before running the sample call `docker-compose up` at [env](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Sample/env) folder.
+Before running the sample call `docker-compose up` from [env](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Sample/env) folder.
