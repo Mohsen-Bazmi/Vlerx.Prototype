@@ -29,9 +29,8 @@ How to define use cases (application layer):
                                                                , cmd.Address
                                                                , cmd.PhoneNumber));
 
-            StoryOf<RelocateCustomer>((customer, cmd) =>
-                customer.Relocate(cmd.NewAddress
-                    , cmd.NewPhoneNumber));
+            StoryOf<RelocateCustomer>((customer, cmd) => customer.Relocate(cmd.NewAddress
+                                                                          , cmd.NewPhoneNumber));
             
         }
         ...
