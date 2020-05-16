@@ -98,10 +98,9 @@ Aggregate root with it's state separated from it's logic:
 ```
 Projection:
 ```cs
-    public class CustomerEventListener
-        : IListenTo<CustomerRegistered>
-            , IListenTo<CustomerRelocated>
-            , IListenTo<CustomerContactInfoChanged>
+    public class CustomerEventListener : IListenTo<CustomerRegistered>
+                                       , IListenTo<CustomerRelocated>
+                                       , IListenTo<CustomerContactInfoChanged>
     {
         readonly IAtomicWriter<string, CustomerViewModel> _writer;
         public CustomerEventListener(IAtomicWriter<string, CustomerViewModel> writer)
