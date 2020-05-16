@@ -3,24 +3,24 @@ An extensible reactive event sourcing framework.
 
 How to test the behaviour using [BDD tools](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Vlerx.Es.Bdd.Tools):
 ```cs
-        [Theory]
-        [InlineData("My Id", "09100000000", "09101111111")]
-        public void RelocateCustomer_CustomerRelocatedAndContactInfoChanged(string customerId, string newAddress, string newPhoneNumber)
-        {
-            Given(new CustomerRegistered(customerId
-                                        , firstName: "Mohsen"
-                                        , lastName: "Bazmi"
-                                        , address: "My Old Address"
-                                        , phoneNumber: "09100000000"));
-            When(new RelocateCustomer(customerId, newAddress, newPhoneNumber));
-            Then(new CustomerRelocated(customerId, newAddress)
-                , new CustomerContactInfoChanged(customerId, newPhoneNumber));
-        }
+[Theory]
+[InlineData("My Id", "09100000000", "09101111111")]
+public void RelocateCustomer_CustomerRelocatedAndContactInfoChanged(string customerId, string newAddress, string newPhoneNumber)
+{
+    Given(new CustomerRegistered(customerId
+                                , firstName: "Mohsen"
+                                , lastName: "Bazmi"
+                                , address: "My Old Address"
+                                , phoneNumber: "09100000000"));
+    When(new RelocateCustomer(customerId, newAddress, newPhoneNumber));
+    Then(new CustomerRelocated(customerId, newAddress)
+        , new CustomerContactInfoChanged(customerId, newPhoneNumber));
+}
 ```
 How to define use cases (application layer):
 ```cs
-    public class CustomerUseCases : UseCasesOf<Customer.State>
-    {
+public class CustomerUseCases : UseCasesOf<Customer.State>
+{
         public CustomerUseCases(IRepository<Customer.State> repository) : base(repository)
         {
             StoryOf((RegisterCustomer cmd) => Customer.Register(cmd.CustomerId
@@ -31,10 +31,10 @@ How to define use cases (application layer):
 
             StoryOf<RelocateCustomer>((customer, cmd) => customer.Relocate(cmd.NewAddress
                                                                           , cmd.NewPhoneNumber));
-            
+
         }
         ...
-    }
+}
 ```
 Aggregate root with it's state separated from it's logic:
 ```cs
