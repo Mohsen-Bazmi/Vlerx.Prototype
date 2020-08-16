@@ -1,5 +1,5 @@
 # Vlerx.Prototype
-An extensible reactive event sourcing framework.
+An extensible reactive event sourcing boilerplate.
 
 How to test the behaviour using [BDD tools](https://github.com/Vlerx/Vlerx.Prototype/tree/master/Vlerx.Es.Bdd.Tools):
 ```cs
