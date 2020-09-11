@@ -29,11 +29,11 @@
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Serilog": "2.8.0",
-          "Vlerx.Es": "1.0.6",
+          "Vlerx.Es": "1.0.7",
           "Vlerx.Es.EventMapping": "1.0.5",
           "Vlerx.Es.EventStore": "1.0.0",
           "Vlerx.Es.Process": "1.0.0",
-          "Vlerx.InternalMessaging": "1.0.5",
+          "Vlerx.InternalMessaging": "1.0.6",
           "Vlerx.SampleContracts": "1.0.0",
           "Vlerx.SampleReadSide": "1.0.0",
           "Vlerx.SampleService": "1.0.0"
@@ -184,7 +184,7 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.3": {},
-      "Vlerx.Es/1.0.6": {
+      "Vlerx.Es/1.0.7": {
         "dependencies": {
           "DeepCloner": "0.10.2",
           "Vlerx.Es.Messaging": "1.0.5"
@@ -199,7 +199,7 @@
       "Vlerx.Es.EventMapping/1.0.5": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Vlerx.Es": "1.0.6"
+          "Vlerx.Es": "1.0.7"
         },
         "runtime": {
           "Vlerx.Es.EventMapping.dll": {}
@@ -213,10 +213,10 @@
           "EventStore.ClientAPI.NetCore": "4.1.0.23",
           "Microsoft.Extensions.Hosting": "2.2.0",
           "Serilog": "2.8.0",
-          "Vlerx.Es": "1.0.6",
+          "Vlerx.Es": "1.0.7",
           "Vlerx.Es.EventMapping": "1.0.5",
           "Vlerx.Es.Messaging": "1.0.5",
-          "Vlerx.InternalMessaging": "1.0.5"
+          "Vlerx.InternalMessaging": "1.0.6"
         },
         "runtime": {
           "Vlerx.Es.EventStore.dll": {}
@@ -236,9 +236,9 @@
       "Vlerx.Es.Process/1.0.0": {
         "dependencies": {
           "DeepCloner": "0.10.2",
-          "Vlerx.Es": "1.0.6",
+          "Vlerx.Es": "1.0.7",
           "Vlerx.Es.Messaging": "1.0.5",
-          "Vlerx.InternalMessaging": "1.0.5"
+          "Vlerx.InternalMessaging": "1.0.6"
         },
         "runtime": {
           "Vlerx.Es.Process.dll": {}
@@ -247,7 +247,7 @@
           "Vlerx.Es.Process.dll": {}
         }
       },
-      "Vlerx.InternalMessaging/1.0.5": {
+      "Vlerx.InternalMessaging/1.0.6": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0"
         },
@@ -271,7 +271,7 @@
       },
       "Vlerx.SampleReadSide/1.0.0": {
         "dependencies": {
-          "Vlerx.InternalMessaging": "1.0.5",
+          "Vlerx.InternalMessaging": "1.0.6",
           "Vlerx.SampleContracts": "1.0.0",
           "RavenDB.Client": "4.2.4"
         },
@@ -284,7 +284,7 @@
       },
       "Vlerx.SampleService/1.0.0": {
         "dependencies": {
-          "Vlerx.Es": "1.0.6",
+          "Vlerx.Es": "1.0.7",
           "Vlerx.SampleContracts": "1.0.0"
         },
         "runtime": {
@@ -3555,7 +3555,7 @@
       "path": "system.threading.tasks.extensions/4.5.3",
       "hashPath": "system.threading.tasks.extensions.4.5.3.nupkg.sha512"
     },
-    "Vlerx.Es/1.0.6": {
+    "Vlerx.Es/1.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3580,7 +3580,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Vlerx.InternalMessaging/1.0.5": {
+    "Vlerx.InternalMessaging/1.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

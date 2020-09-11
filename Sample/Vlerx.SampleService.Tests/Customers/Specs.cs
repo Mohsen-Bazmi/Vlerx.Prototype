@@ -1,4 +1,5 @@
 using Vlerx.Es.Bdd.Tools;
+using Vlerx.Es.Messaging;
 using Vlerx.Es.Persistence;
 using Vlerx.Es.StoryBroker;
 using Vlerx.SampleContracts.Customers;
@@ -10,9 +11,9 @@ namespace Vlerx.SampleService.Tests.Customers
 {
     public class CustomerSpecs : BehaviouralSpecs
     {
-        public CustomerSpecs() 
-        : base(Scenarios.OfStories(es => Stories.OfUseCases(
-                new CustomerUseCases(new Repository<Customer.State>(es))
+        public CustomerSpecs()
+        : base(Scenarios.OfStories(eventStore => Stories.OfUseCases(
+                new CustomerUseCases(new Repository<Customer.State>(eventStore))
             )))
         {
         }
@@ -36,6 +37,10 @@ namespace Vlerx.SampleService.Tests.Customers
                 , address
                 , phoneNumber));
         }
+
+        
+
+        
 
         [Theory]
         [InlineData("My Id", "09100000000", "09101111111")]

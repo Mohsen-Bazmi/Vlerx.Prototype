@@ -1543,7 +1543,7 @@
           "xunit.core": "[2.4.0]"
         }
       },
-      "xunit.abstractions/2.0.2": {
+      "xunit.abstractions/2.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/xunit.abstractions.dll": {}
@@ -1603,6 +1603,20 @@
           "lib/netstandard2.0/xunit.execution.dotnet.dll": {}
         }
       },
+      "xunit.runner.utility/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.Runtime.Loader": "4.0.0",
+          "xunit.abstractions": "2.0.3"
+        },
+        "compile": {
+          "lib/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll": {}
+        }
+      },
       "xunit.runner.visualstudio/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -1611,6 +1625,9 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "xunit.runners/2.0.0": {
+        "type": "package"
       },
       "Vlerx.Es/1.0.7": {
         "type": "project",
@@ -5637,10 +5654,10 @@
         "xunit.nuspec"
       ]
     },
-    "xunit.abstractions/2.0.2": {
-      "sha512": "vItLB0WkaKg0426RgWq+ZdXH6D+YV/uH28C0weWMOBnVx7I+luHuEYss9hoOngpkiN5kUpLvh9VZRx1H2sk59A==",
+    "xunit.abstractions/2.0.3": {
+      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
       "type": "package",
-      "path": "xunit.abstractions/2.0.2",
+      "path": "xunit.abstractions/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5650,7 +5667,7 @@
         "lib/netstandard1.0/xunit.abstractions.xml",
         "lib/netstandard2.0/xunit.abstractions.dll",
         "lib/netstandard2.0/xunit.abstractions.xml",
-        "xunit.abstractions.2.0.2.nupkg.sha512",
+        "xunit.abstractions.2.0.3.nupkg.sha512",
         "xunit.abstractions.nuspec"
       ]
     },
@@ -5736,6 +5753,30 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
+    "xunit.runner.utility/2.4.1": {
+      "sha512": "OR1KQpDegHK9mxARihYEWSiG82ce/WbWvv7/unSyAuEsGVPpLCzYt1ExsyUE136i28qSqPmoS1Fh1hs9NmKCTQ==",
+      "type": "package",
+      "path": "xunit.runner.utility/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/xunit.runner.utility.net35.dll",
+        "lib/net35/xunit.runner.utility.net35.xml",
+        "lib/net452/xunit.runner.utility.net452.dll",
+        "lib/net452/xunit.runner.utility.net452.xml",
+        "lib/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll",
+        "lib/netcoreapp1.0/xunit.runner.utility.netcoreapp10.xml",
+        "lib/netstandard1.1/xunit.runner.utility.netstandard11.dll",
+        "lib/netstandard1.1/xunit.runner.utility.netstandard11.xml",
+        "lib/netstandard1.5/xunit.runner.utility.netstandard15.dll",
+        "lib/netstandard1.5/xunit.runner.utility.netstandard15.xml",
+        "lib/uap10.0/xunit.runner.utility.uwp10.dll",
+        "lib/uap10.0/xunit.runner.utility.uwp10.pri",
+        "lib/uap10.0/xunit.runner.utility.uwp10.xml",
+        "xunit.runner.utility.2.4.1.nupkg.sha512",
+        "xunit.runner.utility.nuspec"
+      ]
+    },
     "xunit.runner.visualstudio/2.4.0": {
       "sha512": "3eq5cGXbEJkqW9nwLuXwtxy9B5gMA8i7HW4rN63AhAvy5UvEcQbZnve23wx/oPrkyg/4CbfNhxkBezS0b1oUdQ==",
       "type": "package",
@@ -5764,6 +5805,18 @@
         "build/uap10.0/xunit.runner.visualstudio.uwp.testadapter.pri",
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
+      ]
+    },
+    "xunit.runners/2.0.0": {
+      "sha512": "+dUmiiGf5IkoOreRr2MKqirWYPCa4MHQ4rEzUxSR7LiyQYko47DKz5x/fwFJCgfHTG5ClA+yuGDa6RYAvkDJjw==",
+      "type": "package",
+      "path": "xunit.runners/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "readme.txt",
+        "xunit.runners.2.0.0.nupkg.sha512",
+        "xunit.runners.nuspec"
       ]
     },
     "Vlerx.Es/1.0.7": {
@@ -5806,7 +5859,10 @@
       "Vlerx.InternalMessaging >= 1.0.6",
       "Vlerx.SampleService >= 1.0.0",
       "xunit >= 2.4.0",
-      "xunit.runner.visualstudio >= 2.4.0"
+      "xunit.analyzers >= 0.10.0",
+      "xunit.runner.utility >= 2.4.1",
+      "xunit.runner.visualstudio >= 2.4.0",
+      "xunit.runners >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -5816,11 +5872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
+      "projectUniqueName": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
       "projectName": "Vlerx.SampleService.Tests",
-      "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
+      "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/Vlerx.SampleService.Tests.csproj",
       "packagesPath": "/home/mohsen/.nuget/packages/",
-      "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Tests/obj/",
+      "outputPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5837,17 +5893,17 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es.Bdd.Tools/Vlerx.Es.Bdd.Tools.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es/Vlerx.Es.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es/Vlerx.Es.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
             }
           }
         }
@@ -5875,9 +5931,21 @@
             "target": "Package",
             "version": "[2.4.0, )"
           },
+          "xunit.analyzers": {
+            "target": "Package",
+            "version": "[0.10.0, )"
+          },
+          "xunit.runner.utility": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
           "xunit.runner.visualstudio": {
             "target": "Package",
             "version": "[2.4.0, )"
+          },
+          "xunit.runners": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           }
         },
         "imports": [

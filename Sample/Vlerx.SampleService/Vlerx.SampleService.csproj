@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+   <ProjectReference Include="..\..\Vlerx.Es\Vlerx.Es.csproj" />
+   <ProjectReference Include="..\Vlerx.SampleContracts\Vlerx.SampleContracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- <PackageReference Include="Vlerx.Es" Version="1.0.5" /> -->
+  </ItemGroup>
+
+  <PropertyGroup>
+  
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+
+</Project>

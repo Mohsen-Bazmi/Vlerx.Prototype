@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9e42a78f-bba2-4a18-a732-a8669eaeba20" name="@localhost 2020-08-27 10:44:39" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-08-27T10:44:39.7027394+04:30" queuing="2020-08-27T10:44:39.7027396+04:30" start="2020-08-27T10:44:36.9183018+04:30" finish="2020-08-27T10:44:39.7962698+04:30" />
+  <TestSettings name="default" id="83b0a3b6-893d-4db7-a2f2-2cdd1f478fa9">
+    <Deployment runDeploymentRoot="_localhost_2020-08-27_10_44_39" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b74953ca-cf1e-4638-b344-b459be64be4a" testId="12cd14d0-1e09-4b0f-62d3-1e0dd043de52" testName="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_WithoutAddress_CustomerContactInfoChanged(customerId: &quot;My Id&quot;, oldAddress: &quot;&quot;, newPhoneNumber: &quot;09101111111&quot;)" computerName="localhost" duration="00:00:00.0010000" startTime="2020-08-27T10:44:39.5622015+04:30" endTime="2020-08-27T10:44:39.5622017+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b74953ca-cf1e-4638-b344-b459be64be4a" />
+    <UnitTestResult executionId="30a536ad-f20d-4529-ad4b-1439350df39f" testId="bf48f6b9-9cf8-e53b-44cb-a7453f442137" testName="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_WithoutAddressAndPhoneNumber_NothingHappened(customerId: &quot;My Id&quot;, newAddress: &quot;&quot;, newPhoneNumber: &quot;&quot;)" computerName="localhost" duration="00:00:00.0010000" startTime="2020-08-27T10:44:39.5614642+04:30" endTime="2020-08-27T10:44:39.5614647+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30a536ad-f20d-4529-ad4b-1439350df39f" />
+    <UnitTestResult executionId="9ff0a8e3-24d1-4969-b1ec-2444e2c086c5" testId="2ff42f1f-b481-1309-edb4-64185e970f93" testName="Vlerx.SampleService.Tests.Customers.OldSchoolSpecs.RegisterCustomer_CustomerRegistered" computerName="localhost" duration="00:00:00.0010000" startTime="2020-08-27T10:44:39.4795057+04:30" endTime="2020-08-27T10:44:39.4795067+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ff0a8e3-24d1-4969-b1ec-2444e2c086c5">
+      <Output>
+        <StdOut>For Sample</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="762b3e6e-c61c-4bba-96cf-bae934a747e9" testId="23869361-7766-46ed-4f19-d290aff1c3a1" testName="Vlerx.SampleService.Tests.StoryTests.StoryTests.Test_RestaurantSpecs(spec: Spec { Given = [CustomerRegistered { ... }], Then = [CustomerRelocated { ... }, CustomerContactInfoChanged { ... }], When = RelocateCustomer { CustomerId = &quot;customerId&quot;, NewAddress = &quot;newAddress&quot;, NewPhoneNumber = &quot;newPhoneNumber&quot; } })" computerName="localhost" duration="00:00:00.0590000" startTime="2020-08-27T10:44:39.5532473+04:30" endTime="2020-08-27T10:44:39.5532473+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="762b3e6e-c61c-4bba-96cf-bae934a747e9" />
+    <UnitTestResult executionId="2587b6a8-6dc3-45f3-860a-57cdff7ca15d" testId="31cdfd7b-b015-2013-8709-7e4863081130" testName="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_WithoutPhoneNumber_CustomerRelocated(customerId: &quot;My Id&quot;, newAddress: &quot;My New Address&quot;, newPhoneNumber: &quot;&quot;)" computerName="localhost" duration="00:00:00.0520000" startTime="2020-08-27T10:44:39.5531893+04:30" endTime="2020-08-27T10:44:39.5531895+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2587b6a8-6dc3-45f3-860a-57cdff7ca15d" />
+    <UnitTestResult executionId="28105ec1-a22d-4884-a7ce-c8805c075d20" testId="f25686be-4384-6e9d-49bd-7013a3b8ca2b" testName="Vlerx.SampleService.Tests.StoryTests.CurstomerRelocation_ContactInfoChanged2.Test" computerName="localhost" duration="00:00:00.0510000" startTime="2020-08-27T10:44:39.5532062+04:30" endTime="2020-08-27T10:44:39.5532062+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28105ec1-a22d-4884-a7ce-c8805c075d20" />
+    <UnitTestResult executionId="42f6de32-da11-4e34-a975-725e18932a5f" testId="93446974-b7b9-3a81-8104-7f78ec41e868" testName="Vlerx.SampleService.Tests.StoryTests.undefined_undefined.Test" computerName="localhost" duration="00:00:00.0520000" startTime="2020-08-27T10:44:39.5530530+04:30" endTime="2020-08-27T10:44:39.5530535+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42f6de32-da11-4e34-a975-725e18932a5f" />
+    <UnitTestResult executionId="121e712c-7358-4292-bbda-d0a70919b5e9" testId="02012ac2-5626-b9ef-a284-b0dc45fe48b4" testName="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_WithOldAddress_CustomerContactInfoChanged(customerId: &quot;My Id&quot;, oldAddress: &quot;My Old Address&quot;, newPhoneNumber: &quot;09101111111&quot;)" computerName="localhost" duration="00:00:00.0010000" startTime="2020-08-27T10:44:39.6438117+04:30" endTime="2020-08-27T10:44:39.6438121+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="121e712c-7358-4292-bbda-d0a70919b5e9" />
+    <UnitTestResult executionId="32da26a6-d835-45c5-8a3b-3ed21e5030f8" testId="0838a96c-aa80-9f53-f6c2-7d2e3ed0733c" testName="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RegisterCustomer_CustomerRegistered(customerId: &quot;My Id&quot;, firstName: &quot;Mohsen&quot;, lastName: &quot;Bazmi&quot;, address: &quot;My Address&quot;, phoneNumber: &quot;09100000000&quot;)" computerName="localhost" duration="00:00:00.0030000" startTime="2020-08-27T10:44:39.5648677+04:30" endTime="2020-08-27T10:44:39.5648681+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32da26a6-d835-45c5-8a3b-3ed21e5030f8" />
+    <UnitTestResult executionId="d0b11789-3f68-4bf9-a1ab-9bc2695ed57c" testId="e20d3cf0-0214-a34f-d829-007ee411ea65" testName="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_CustomerRelocatedAndContactInfoChanged(customerId: &quot;My Id&quot;, newAddress: &quot;09100000000&quot;, newPhoneNumber: &quot;09101111111&quot;)" computerName="localhost" duration="00:00:00.0010000" startTime="2020-08-27T10:44:39.5618946+04:30" endTime="2020-08-27T10:44:39.5618949+04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0b11789-3f68-4bf9-a1ab-9bc2695ed57c" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Vlerx.SampleService.Tests.Customers.OldSchoolSpecs.RegisterCustomer_CustomerRegistered" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="2ff42f1f-b481-1309-edb4-64185e970f93">
+      <Execution id="9ff0a8e3-24d1-4969-b1ec-2444e2c086c5" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.Customers.OldSchoolSpecs" name="RegisterCustomer_CustomerRegistered" />
+    </UnitTest>
+    <UnitTest name="Vlerx.SampleService.Tests.StoryTests.CurstomerRelocation_ContactInfoChanged2.Test" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="f25686be-4384-6e9d-49bd-7013a3b8ca2b">
+      <Execution id="28105ec1-a22d-4884-a7ce-c8805c075d20" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.StoryTests.CurstomerRelocation_ContactInfoChanged2" name="Test" />
+    </UnitTest>
+    <UnitTest name="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_WithoutAddress_CustomerContactInfoChanged(customerId: &quot;My Id&quot;, oldAddress: &quot;&quot;, newPhoneNumber: &quot;09101111111&quot;)" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="12cd14d0-1e09-4b0f-62d3-1e0dd043de52">
+      <Execution id="b74953ca-cf1e-4638-b344-b459be64be4a" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.Customers.CustomerSpecs" name="RelocateCustomer_WithoutAddress_CustomerContactInfoChanged" />
+    </UnitTest>
+    <UnitTest name="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_WithoutAddressAndPhoneNumber_NothingHappened(customerId: &quot;My Id&quot;, newAddress: &quot;&quot;, newPhoneNumber: &quot;&quot;)" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="bf48f6b9-9cf8-e53b-44cb-a7453f442137">
+      <Execution id="30a536ad-f20d-4529-ad4b-1439350df39f" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.Customers.CustomerSpecs" name="RelocateCustomer_WithoutAddressAndPhoneNumber_NothingHappened" />
+    </UnitTest>
+    <UnitTest name="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RegisterCustomer_CustomerRegistered(customerId: &quot;My Id&quot;, firstName: &quot;Mohsen&quot;, lastName: &quot;Bazmi&quot;, address: &quot;My Address&quot;, phoneNumber: &quot;09100000000&quot;)" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="0838a96c-aa80-9f53-f6c2-7d2e3ed0733c">
+      <Execution id="32da26a6-d835-45c5-8a3b-3ed21e5030f8" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.Customers.CustomerSpecs" name="RegisterCustomer_CustomerRegistered" />
+    </UnitTest>
+    <UnitTest name="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_WithoutPhoneNumber_CustomerRelocated(customerId: &quot;My Id&quot;, newAddress: &quot;My New Address&quot;, newPhoneNumber: &quot;&quot;)" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="31cdfd7b-b015-2013-8709-7e4863081130">
+      <Execution id="2587b6a8-6dc3-45f3-860a-57cdff7ca15d" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.Customers.CustomerSpecs" name="RelocateCustomer_WithoutPhoneNumber_CustomerRelocated" />
+    </UnitTest>
+    <UnitTest name="Vlerx.SampleService.Tests.StoryTests.StoryTests.Test_RestaurantSpecs" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="23869361-7766-46ed-4f19-d290aff1c3a1">
+      <Execution id="762b3e6e-c61c-4bba-96cf-bae934a747e9" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.StoryTests.StoryTests" name="Test_RestaurantSpecs" />
+    </UnitTest>
+    <UnitTest name="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_CustomerRelocatedAndContactInfoChanged(customerId: &quot;My Id&quot;, newAddress: &quot;09100000000&quot;, newPhoneNumber: &quot;09101111111&quot;)" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="e20d3cf0-0214-a34f-d829-007ee411ea65">
+      <Execution id="d0b11789-3f68-4bf9-a1ab-9bc2695ed57c" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.Customers.CustomerSpecs" name="RelocateCustomer_CustomerRelocatedAndContactInfoChanged" />
+    </UnitTest>
+    <UnitTest name="Vlerx.SampleService.Tests.StoryTests.undefined_undefined.Test" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="93446974-b7b9-3a81-8104-7f78ec41e868">
+      <Execution id="42f6de32-da11-4e34-a975-725e18932a5f" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.StoryTests.undefined_undefined" name="Test" />
+    </UnitTest>
+    <UnitTest name="Vlerx.SampleService.Tests.Customers.CustomerSpecs.RelocateCustomer_WithOldAddress_CustomerContactInfoChanged(customerId: &quot;My Id&quot;, oldAddress: &quot;My Old Address&quot;, newPhoneNumber: &quot;09101111111&quot;)" storage="/home/mohsen/desktop/messagedrivendesigntestingserver/vlerx.prototype/sample/vlerx.sampleservice.tests/bin/debug/netcoreapp2.2/vlerx.sampleservice.tests.dll" id="02012ac2-5626-b9ef-a284-b0dc45fe48b4">
+      <Execution id="121e712c-7358-4292-bbda-d0a70919b5e9" />
+      <TestMethod codeBase="/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Tests/bin/Debug/netcoreapp2.2/Vlerx.SampleService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Vlerx.SampleService.Tests.Customers.CustomerSpecs" name="RelocateCustomer_WithOldAddress_CustomerContactInfoChanged" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="12cd14d0-1e09-4b0f-62d3-1e0dd043de52" executionId="b74953ca-cf1e-4638-b344-b459be64be4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf48f6b9-9cf8-e53b-44cb-a7453f442137" executionId="30a536ad-f20d-4529-ad4b-1439350df39f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ff42f1f-b481-1309-edb4-64185e970f93" executionId="9ff0a8e3-24d1-4969-b1ec-2444e2c086c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23869361-7766-46ed-4f19-d290aff1c3a1" executionId="762b3e6e-c61c-4bba-96cf-bae934a747e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31cdfd7b-b015-2013-8709-7e4863081130" executionId="2587b6a8-6dc3-45f3-860a-57cdff7ca15d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f25686be-4384-6e9d-49bd-7013a3b8ca2b" executionId="28105ec1-a22d-4884-a7ce-c8805c075d20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93446974-b7b9-3a81-8104-7f78ec41e868" executionId="42f6de32-da11-4e34-a975-725e18932a5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02012ac2-5626-b9ef-a284-b0dc45fe48b4" executionId="121e712c-7358-4292-bbda-d0a70919b5e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0838a96c-aa80-9f53-f6c2-7d2e3ed0733c" executionId="32da26a6-d835-45c5-8a3b-3ed21e5030f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e20d3cf0-0214-a34f-d829-007ee411ea65" executionId="d0b11789-3f68-4bf9-a1ab-9bc2695ed57c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="9" passed="9" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 4.6.28207.03)
+[xUnit.net 00:00:00.86]   Discovering: Vlerx.SampleService.Tests
+[xUnit.net 00:00:01.00]   Discovered:  Vlerx.SampleService.Tests
+[xUnit.net 00:00:01.01]   Starting:    Vlerx.SampleService.Tests
+[xUnit.net 00:00:01.16]       For Sample
+Test 'Vlerx.SampleService.Tests.Customers.OldSchoolSpecs.RegisterCustomer_CustomerRegistered' was skipped in the test run.
+[xUnit.net 00:00:01.36]   Finished:    Vlerx.SampleService.Tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="localhost" outcome="Warning" timestamp="2020-08-27T10:44:39.4502712+04:30">
+        <Text>[xUnit.net 00:00:01.16]     Vlerx.SampleService.Tests.Customers.OldSchoolSpecs.RegisterCustomer_CustomerRegistered [SKIP]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

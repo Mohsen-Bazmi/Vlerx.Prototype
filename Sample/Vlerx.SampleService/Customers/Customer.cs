@@ -29,7 +29,6 @@ namespace Vlerx.SampleService.Customers
             var events = new List<IDomainEvent>();
             if (!string.IsNullOrWhiteSpace(newAddress) && customer.Address != newAddress)
                 events.Add(new CustomerRelocated(customer.Id, newAddress));
-
             if (!string.IsNullOrWhiteSpace(newPhoneNumber))
                 events.Add(new CustomerContactInfoChanged(customer.Id, newPhoneNumber));
             return customer.Apply(events);

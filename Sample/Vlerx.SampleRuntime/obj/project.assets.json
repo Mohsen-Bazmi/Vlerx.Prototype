@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
+      "projectUniqueName": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
       "projectName": "Vlerx.SampleRuntime",
-      "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
+      "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleRuntime/Vlerx.SampleRuntime.csproj",
       "packagesPath": "/home/mohsen/.nuget/packages/",
-      "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleRuntime/obj/",
+      "outputPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleRuntime/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

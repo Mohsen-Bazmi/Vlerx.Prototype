@@ -12470,11 +12470,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
+      "projectUniqueName": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
       "projectName": "Vlerx.SampleService.Web",
-      "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
+      "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Web/Vlerx.SampleService.Web.csproj",
       "packagesPath": "/home/mohsen/.nuget/packages/",
-      "outputPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService.Web/obj/",
+      "outputPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService.Web/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -12491,29 +12491,29 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleContracts/Vlerx.SampleContracts.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleReadSide/Vlerx.SampleReadSide.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Sample/Vlerx.SampleService/Vlerx.SampleService.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es.EventMapping/Vlerx.Es.EventMapping.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es.EventStore/Vlerx.Es.EventStore.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Process/Vlerx.Es.Process.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es.Process/Vlerx.Es.Process.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es.Process/Vlerx.Es.Process.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es.Process/Vlerx.Es.Process.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.Es/Vlerx.Es.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es/Vlerx.Es.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.Es/Vlerx.Es.csproj"
             },
-            "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
-              "projectPath": "/run/media/mohsen/Shared/Projects/Vlerx/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
+            "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj": {
+              "projectPath": "/home/mohsen/Desktop/MessageDrivenDesignTestingServer/Vlerx.Prototype/Vlerx.InternalMessaging/Vlerx.InternalMessaging.csproj"
             }
           }
         }
